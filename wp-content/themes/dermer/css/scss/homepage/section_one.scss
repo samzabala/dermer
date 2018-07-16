@@ -1,0 +1,32 @@
+#section_one {
+	background: url(#{$themePath}images/hero-1920.jpg) top center no-repeat;
+	width:100%;
+	height:990px;
+	margin:129px 0 0;
+}
+
+
+.section_one_inner {
+	padding: 201px 125px 0;
+}
+
+
+span.section_one_title {
+	color:$beige;
+	text-transform: uppercase;
+	font-size:18px;
+	font-family: $montserrat;
+	font-weight: 800;
+	letter-spacing: 0.2em;
+	display: inline-block;
+	&:before {
+		content:"";
+		width:54px;
+		height:5px;
+		background: $beige;
+		display: inline-block;
+		vertical-align: top;
+		margin-top:6px;
+		margin-right:27px;
+	}
+}
