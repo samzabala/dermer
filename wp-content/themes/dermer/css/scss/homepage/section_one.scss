@@ -1,5 +1,6 @@
 #section_one {
 	background: url(#{$themePath}images/hero-1920.jpg) top center no-repeat;
+	background-size:cover;
 	width:100%;
 	height:990px;
 	margin:129px 0 0;
@@ -30,3 +31,56 @@ span.section_one_title {
 		margin-right:27px;
 	}
 }
+
+
+span.section_one_large_header {
+	display: block;
+	margin:30px 0 0;
+	color:#fff;
+	font-size:100px;
+	line-height: 120px;
+	font-family:$playfair;
+	font-weight:700;
+	max-width: 880px;
+}
+
+a.button {
+	display: inline-block;
+	background: $bluelight;
+	color:#fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size:16px;
+	font-family: $montserrat;
+	font-weight:800;
+	margin:53px 0 0;
+	padding:27px 25px 25px;
+	letter-spacing: 0.17em;
+	transition: all 200ms ease-in-out;
+	&:hover {
+		background: #fff;
+		color:$bluelight;
+	}
+}
+
+
+
+.arrow {
+	width:60px;
+	margin:148px 0 0;
+}
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+#section_one {
+  margin: 100px 0 0;
+}
+
+	
+	
+	
+} /* Media Query */
+
+

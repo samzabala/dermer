@@ -72,6 +72,38 @@
 		
 		
 	</header>
+	
+	<section id="sticky_header">
+		
+		<div class="mobile_left">
+			
+			<a href="tel:(404) 892-8884">
+			
+				<span class="phone_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_phone.svg"); ?></span>
+				
+				<span class="call_us">Call Us</span><!-- call_us -->
+			
+			</a>
+			
+		</div><!-- mobile_left -->
+		
+		<div class="mobile_right">
+			
+			<span class="mobile_menu_title">Menu</span><!-- mobile_menu_title -->
+			
+			<div class="mobile_menu_bars_wrapper">
+				
+				<span class="mobile_menu_bar"></span><!-- mobile_menu_bar -->
+				
+				<span class="mobile_menu_bar"></span><!-- mobile_menu_bar -->
+				
+				<span class="mobile_menu_bar"></span><!-- mobile_menu_bar -->
+				
+			</div><!-- mobile_menu_bars_wrapper -->
+			
+		</div><!-- mobile_right -->
+		
+	</section><!-- sticky_header -->
 				
 
 <?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
