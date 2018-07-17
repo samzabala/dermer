@@ -208,6 +208,7 @@ header {
 				display: block;
 			}
 		}
+		
 	}
 	
 	.mobile_left {
@@ -223,6 +224,57 @@ header {
 	
 	.mobile_right {
 		background:$bluelight;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		span.mobile_menu_title {
+			color:#fff;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-family: $montserrat;
+			font-weight: 800;
+			font-size:14px;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			margin-right:15px;
+		}
 	}
+	
+	
+	.mobile_menu_bars_wrapper {
+		span.mobile_menu_bar {
+			display: block;
+			width:38px;
+			height:3px;
+			background:#fff;
+			margin-bottom:7px;
+			&:last-of-type {
+				margin-bottom:0;
+			}
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 400px) {
+	
+	
+	
+	.header_left {
+		width:100%;
+		a {
+			svg {
+				width: 295px;
+			}
+		}
+	}
+	
+	
+	
 	
 } /* Media Query */
