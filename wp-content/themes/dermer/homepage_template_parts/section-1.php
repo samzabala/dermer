@@ -4,7 +4,7 @@
 		
 		<span class="section_one_title">driven. attentive. reliable.</span><!-- section_one_title -->
 		
-		<span class="section_one_large_header">Dedicated to accomplishing the results you want.</span><!-- section_one_large_header -->
+		<span class="section_one_large_header">Dedicated to accomplishing the results <br/> you want.</span><!-- section_one_large_header -->
 		
 		<a class="button" href="">Click for a free consultation</a><!-- button -->
 		
