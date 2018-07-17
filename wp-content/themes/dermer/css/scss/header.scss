@@ -164,8 +164,8 @@ header {
 	
 	
 	header {
-		position: static;
 		height: 69px;
+		display: block;
 	}
 	
 	.header_left {
@@ -185,7 +185,7 @@ header {
 		display: flex;
 		height: 50px;
 		width:100%;
-	}
+}
 	
 	
 	

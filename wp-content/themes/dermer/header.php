@@ -70,10 +70,7 @@
 			
 		</div><!-- menu_wrapper -->
 		
-		
-	</header>
-	
-	<section id="sticky_header">
+		<section id="sticky_header">
 		
 		<div class="mobile_left">
 			
@@ -104,6 +101,11 @@
 		</div><!-- mobile_right -->
 		
 	</section><!-- sticky_header -->
+		
+		
+	</header>
+	
+	
 				
 
 <?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
