@@ -6,6 +6,7 @@ header {
 	top:0;
 	left:0;
 	background: #fff;
+	z-index:25;
 }
 
 .header_left {
@@ -185,6 +186,7 @@ header {
 		display: flex;
 		height: 50px;
 		width:100%;
+		z-index:25;
 }
 	
 	

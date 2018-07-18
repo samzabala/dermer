@@ -1,0 +1,43 @@
+#section_three {
+	margin:-143px 0 0;
+}
+
+
+.sec_three_inner {
+	span.small_header, h1 {
+		display: block;
+		text-align: center;
+	}
+	span.small_header {
+		font-family: $montserrat;
+		font-weight: 800;
+		color:$bluelight;
+		font-size:17px;
+		letter-spacing: 1.2em;
+		text-transform: uppercase;
+		position: relative;
+		z-index: 1;
+		padding-left:1.2em;
+	}
+	h1 {
+		color:$blue;
+		font-family: $playfair;
+		font-weight: 700;
+		font-size:100px;
+		line-height: 111px;
+		max-width:900px;
+		margin:10px auto 0;
+		
+	}
+}
+
+
+.states_svg {
+	width:110px;
+	height: 138px;
+	margin:-80px auto 0;
+	svg {
+		width:110px;
+		height: 138px;
+	}
+}
