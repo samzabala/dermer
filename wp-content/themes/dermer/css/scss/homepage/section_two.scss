@@ -1,7 +1,7 @@
 #section_two {
 	width:100%;
 	background: url(#{$themePath}images/pattern-white.jpg) top center repeat;
-	padding-bottom:270px;
+	padding:0 40px 270px;
 }
 
 .sec_two_inner {
@@ -102,7 +102,29 @@
 	}
 
 
+@media screen and (max-width: 1450px) {
+	
+#section_two {
+	
+}
+	
+.sec_two_inner {
+	padding: 177px 0 0;
+}
 
+
+.single_slide {
+	height: 456px;
+	padding: 76px 0 0 0;
+}
+
+.single_slide.slide_two {
+  margin-top: -71px;
+}
+	
+	
+	
+} /* Media Query */
 
 
 
