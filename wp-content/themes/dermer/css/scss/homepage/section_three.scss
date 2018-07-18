@@ -1,5 +1,5 @@
 #section_three {
-	margin:-143px 0 0;
+	margin:-143px 0 130px;
 }
 
 
@@ -28,6 +28,7 @@
 		max-width:900px;
 		margin:10px auto 0;
 		
+		
 	}
 }
 
@@ -40,4 +41,12 @@
 		width:110px;
 		height: 138px;
 	}
+}
+
+
+.sec_three_content {
+	margin:92px auto 0;
+	max-width:1530px;
+	column-count:2;
+	column-gap:105px;
 }
