@@ -12,6 +12,7 @@ $('.sec_two_slider').slick({
   slidesToScroll: 1,
   mobileFirst:true,
   arrows:true,
+  //fade:true,
   prevArrow: ".back_button",
   nextArrow: ".next_button",
   slide:".single_slide",

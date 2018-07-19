@@ -2,8 +2,11 @@
 	
 	<div class="sec_two_inner">
 		
+			
 		
 		<div class="sec_two_slider">
+			
+			
 			
 			
 			<div class="single_slide slide_one">
@@ -84,21 +87,31 @@
 			</div><!-- single_slide -->
 			
 			
-			<div class="back_button">
-				
-				<?php echo file_get_contents("wp-content/themes/dermer/images/arrow-left-01.svg"); ?>
-				
-			</div><!-- back_button -->
 			
-				<div class="next_button">
+			
 				
-				<?php echo file_get_contents("wp-content/themes/dermer/images/arrow-right-01.svg"); ?>
-				
-			</div><!-- next_button -->
 			
 			
 			
 		</div><!-- sec_two_slider -->
+		
+		
+		
+			<div class="back_button slide_button">
+				
+				<?php echo file_get_contents("wp-content/themes/dermer/images/arrow-left-01.svg"); ?>
+				
+			</div><!-- back_button -->
+
+		
+		
+		
+		
+		<div class="next_button slide_button">
+				
+				<?php echo file_get_contents("wp-content/themes/dermer/images/arrow-right-01.svg"); ?>
+				
+			</div><!-- next_button -->
 		
 		
 	</div><!-- sec_two_inner -->
