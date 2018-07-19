@@ -95,6 +95,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/section_four.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section_four.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/homepage\/section_one.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -187,6 +200,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-3.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-4.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-4.php",
 		"oF": 0
 		},
 	"\/images\/arrow-down.svg": {
@@ -560,6 +580,16 @@
 		"oA": 0,
 		"oAP": "\/index.php",
 		"oF": 0
+		},
+	"\/js\/custom-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/custom-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/js\/custom.js": {
 		"ft": 64,
