@@ -116,3 +116,47 @@
 	
 	
 } /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	#section_three {
+		margin: -174px 0 47px;
+		padding-left:0px;
+		padding-right:0px;
+	}
+	
+	
+	.sec_three_inner {
+		padding-left:17px;
+		padding-right:17px;
+		h1 {
+			font-size:52px;
+			line-height: 55px;
+			max-width: 600px;
+			margin: -3px auto 0;
+		}
+	}
+	
+	
+	.states_svg {
+		width: 113px;
+		height: 138px;
+		svg {
+    	width: 113px;
+			height: 138px;
+		}
+	}
+	
+	
+	.sec_three_content {
+		margin: 40px auto 0;
+		padding-left:14px;
+		padding-right:14px;
+	}
+		
+	    
+	
+	
+} /* Media Query */
