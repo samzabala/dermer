@@ -104,6 +104,10 @@
 	}
 
 
+.slide_button {
+	display: none;
+}
+
 @media screen and (max-width: 1450px) {
 	
 #section_two {
@@ -182,6 +186,7 @@ span.slide_content {
 	.slide_button {
 		width:70px;
 		height:70px;
+		display: block;
 		svg {
 			width:70px;
 			height:70px;
