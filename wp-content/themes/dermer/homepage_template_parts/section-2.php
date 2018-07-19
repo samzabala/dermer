@@ -84,6 +84,17 @@
 			</div><!-- single_slide -->
 			
 			
+			<div class="back_button">
+				
+				<?php echo file_get_contents("wp-content/themes/dermer/images/arrow-left-01.svg"); ?>
+				
+			</div><!-- back_button -->
+			
+				<div class="next_button">
+				
+				<?php echo file_get_contents("wp-content/themes/dermer/images/arrow-right-01.svg"); ?>
+				
+			</div><!-- next_button -->
 			
 			
 			

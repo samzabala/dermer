@@ -37,6 +37,7 @@
 		font-weight: 700;
 		font-size:50px;
 		margin:4px 0 0;
+		color:#010423;
 	}
 }
 
@@ -105,7 +106,7 @@
 @media screen and (max-width: 1450px) {
 	
 #section_two {
-	
+	padding: 0 40px 293px;
 }
 	
 .sec_two_inner {
@@ -115,12 +116,40 @@
 
 .single_slide {
 	height: 456px;
-	padding: 76px 0 0 0;
+	padding: 76px 20px 0;
 }
 
 .single_slide.slide_two {
   margin-top: -71px;
 }
+
+
+span.slide_content {
+	display: block;
+	margin: 50px 0 0px;
+	&:before {
+		margin-bottom:25px;
+	}
+}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1135px) {
+	
+	
+	
+	.sec_two_slider {
+		display: block;
+		justify-content: none;
+	}
+	
+	.single_slide {
+		width:auto;
+	}
 	
 	
 	
