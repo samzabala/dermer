@@ -52,7 +52,67 @@
 
 
 
-.sec_four_right {
+.sec_four_right, .smaller_screen_layout_change {
 	width:45%;
-	
+	padding: 70px 70px 0 50px;
+	img {
+		width:100%;
+		max-width:621px;
+		height:auto;
+		float:right;
+	}
+	span.sec_four_caption {
+		margin:54px 0 0;
+		max-width:255px;
+		display: block;
+		float:right;
+		font-family: $montserrat;
+		font-weight: 800;
+		font-size:14px;
+		line-height: 28px;
+		text-transform: uppercase;
+		color:#000;
+		letter-spacing: 0.17em;
+		&:before {
+			content:"";
+			display: block;
+			width:100%;
+			height:5px;
+			background:$beige;
+			margin:0 0 21px;
+		}
+	}
 }
+
+.smaller_screen_layout_change {
+	display: none;
+}
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	.sec_four_left {
+		width:100%;
+	}
+	
+	.sec_four_right {
+		display: none;
+	}
+	
+	.smaller_screen_layout_change {
+		display:block;
+		width:50%;
+		float:right;
+		
+	}
+	
+	.sec_four_content {
+		width:50%;
+		float:left;
+	}
+	
+	
+	
+	
+} /* Media Query */
