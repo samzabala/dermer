@@ -20,7 +20,7 @@
 				
 				<img src="<?php bloginfo('template_directory');?>/images/content-2-img.jpg"/>
 			
-				<span class="sec_four_caption">To us, the process matters just as much as the end result.</span><!-- sec_four_caption -->
+				<span class="sec_four_caption">To us, the process matters just as much as the end&nbsp;result.</span><!-- sec_four_caption -->
 				
 			</div><!-- smaller_screen_layout_change :( hacky -->
 			
@@ -30,7 +30,7 @@
 			
 			<img src="<?php bloginfo('template_directory');?>/images/content-2-img.jpg"/>
 			
-			<span class="sec_four_caption">To us, the process matters just as much as the end result.</span><!-- sec_four_caption -->
+			<span class="sec_four_caption">To us, the process matters just as much as the end&nbsp;result.</span><!-- sec_four_caption -->
 			
 			
 		</div><!-- sec_four_right -->

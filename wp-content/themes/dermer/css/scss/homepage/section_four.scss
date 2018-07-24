@@ -1,6 +1,6 @@
 #section_four {
 	width:calc(100% - 157px);
-	
+	margin-bottom:140px;
 }
 
 
@@ -8,7 +8,7 @@
 	width:100%;
 	background:#f5f5f5;
 	display: flex;
-	padding:0 0 0 138px;
+	padding: 0 0 90px 138px;
 }
 
 
@@ -92,8 +92,22 @@
 
 @media screen and (max-width: 1450px) {
 	
+	#section_four {
+		width:100%;
+		margin-bottom:0;
+	}
+	
+	.sec_four_inner {
+		padding: 0 138px 190px 138px;
+	}
+	
 	.sec_four_left {
 		width:100%;
+		span.sec_four_intro {
+			font-size:44px;
+			line-height: 60px;
+			max-width: 920px;
+		}
 	}
 	
 	.sec_four_right {
@@ -108,11 +122,122 @@
 	}
 	
 	.sec_four_content {
-		width:50%;
+		width: 51%;
 		float:left;
+		padding: 94px 0 0;
 	}
 	
 	
+	.smaller_screen_layout_change {
+		width:49%;
+		max-width: 500px;
+		padding: 95px 0px 0 50px;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	.sec_four_inner {
+    padding: 0 61px 190px;
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1135px) {
+	
+	.sec_four_left {
+   	padding: 105px 0 0;
+   	span.sec_four_intro {
+	   	font-size:40px;
+	   	line-height: 56px;
+   	}
+	}
+	
+	.smaller_screen_layout_change {
+		//display: none;
+		width:100%;
+		max-width:100%;
+		padding:0;
+		
+		img {
+			display: none;
+		}
+		span.sec_four_caption {
+			max-width:100%;
+			margin: 20px 0 0;
+			float:none;
+			//text-align: center;
+		}
+	}
+	
+	
+	.sec_four_content {
+		padding: 45px 0 0;
+		width:100%;
+	}
+	
+	.sec_four_inner {
+		 padding: 0 61px 95px;
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	.sec_four_left {
+    padding: 79px 0 0;
+    
+    span.small_header {
+	    &:before {
+	    	display: none;
+    	}
+    	&:after {
+	    	content:"";
+				display:block;
+				width:52px;
+				height:5px;
+				background: $beige;
+				margin-right:38px;
+				vertical-align: top;
+				margin-top: 25px;
+    	}
+    }
+    span.sec_four_intro {
+	    font-size:32px;
+	    line-height: 42px;
+	    margin: 23px 0 0;
+    }
+  }
+  
+  .sec_four_content {
+	  padding: 23px 0 0;
+  }
+  
+  
+  .sec_four_inner {
+	  padding: 0 35px 73px;
+  }
+	
+	
+	.smaller_screen_layout_change {
+		span.sec_four_caption {
+			margin:0 0 0;
+		}
+	}
 	
 	
 } /* Media Query */
