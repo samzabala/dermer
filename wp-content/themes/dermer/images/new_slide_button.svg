@@ -1,0 +1,11 @@
+<svg id="slide_button" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      
+    </style>
+  </defs>
+  <title>arrow-left-right</title>
+  <path class="slide_button-cls-1" d="M40.6.6a40,40,0,1,0,40,40A40,40,0,0,0,40.6.6Zm0,76.4A36.35,36.35,0,1,1,77,40.6,36.38,36.38,0,0,1,40.6,77Z" transform="translate(-0.6 -0.6)"/>
+  <circle class="slide_button-cls-1" cx="40" cy="40" r="30.7"/>
+  <polygon class="slide_button-cls-2" points="43.66 45.76 41.69 43.95 44.92 41.41 29.9 41.41 29.9 39.01 44.92 39.01 41.69 36.4 43.66 34.6 50.5 40.21 43.66 45.76"/>
+</svg>
