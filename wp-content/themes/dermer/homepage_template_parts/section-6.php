@@ -28,7 +28,19 @@
 		
 	</div><!-- sec_six_left -->
 	
-	<div class="sec_six_right"></div><!-- sec_six_right -->
+	<div class="sec_six_right">
+		
+		
+		<span class="small_header">we deliver results while</span><!-- small_header -->
+		
+		<span class="large_header">building and maintaining 
+relationship</span><!-- large_header -->
+
+
+		<a class="testi_button" href="">View All Testimonials</a><!-- testi_button -->
+		
+		
+	</div><!-- sec_six_right -->
 	
 	</div><!-- sec_six_inner -->
 	

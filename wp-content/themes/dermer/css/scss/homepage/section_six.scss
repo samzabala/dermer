@@ -1,7 +1,7 @@
 #section_six {
 	width:100%;
 	background: url(#{$themePath}images/pattern-white.jpg) top left repeat;
-	padding:0 57px 192px;
+	padding:0 45px 192px;
 }
 
 .sec_six_inner {
@@ -97,12 +97,56 @@
 }
 
 
-
-
-
-
-
 .sec_six_right {
 	width:42%;
+	padding-left:77px;
+	padding-top:158px;
+	span.small_header {
+		text-transform: uppercase;
+		font-family: $montserrat;
+		font-weight: 800;
+		letter-spacing: 0.16em;
+		font-size:15px;
+		display: block;
+		&:before {
+			content:"";
+			display: inline-block;
+			background: $beige;
+			width:52px;
+			height:4px;
+			vertical-align: top;
+			margin-right:25px;
+			margin-top:6px;
+		}
+	}
+	span.large_header {
+		color:$bluelight;
+		font-size:93px;
+		text-transform: lowercase;
+		font-family: $montserrat;
+		font-weight: 800;
+		display: block;
+		margin-top:33px;
+		line-height: 110px;
+	}
+}
 
+
+a.testi_button {
+	background: $blue;
+	color:$bluelight;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: $montserrat;
+	font-weight: 700;
+	font-size:16px;
+	letter-spacing: 0.2em;
+	padding:25px 40px;
+	margin:62px 0 0;
+	transition: all 200ms ease-in-out;
+	&:hover {
+		background: $bluelight;
+		color:#fff;
+	}
 }
