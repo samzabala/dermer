@@ -48,6 +48,28 @@ $('.sec_five_inner_slider').slick({
     }
   ]
 });
+
+
+
+$('.sec_six_slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows:true,
+  fade:true,
+  slide:".sec_six_single_slide",
+  prevArrow: ".sec_six_buttons .right_button",
+  nextArrow: ".sec_six_buttons .left_button",
+  responsive: [
+	   {
+      breakpoint: 768,
+      settings: {
+        adaptiveHeight: true
+      }
+    }
+  ]
+});
+
 	
 	
 	

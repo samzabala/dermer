@@ -16,6 +16,37 @@
 				
 			</div><!-- sec_six_single_slide -->
 			
+			<div class="sec_six_single_slide">
+				
+				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/icon-stars.svg"); ?></span><!-- stars_svg -->
+				
+				<span class="sec_six_content">“2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.”</span><!-- sec_six_content -->
+				
+				<span class="sec_six_name">Nicole C.</span><!-- sec_six_name -->
+				
+			</div><!-- sec_six_single_slide -->
+			
+			<div class="sec_six_single_slide">
+				
+				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/icon-stars.svg"); ?></span><!-- stars_svg -->
+				
+				<span class="sec_six_content">“3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.”</span><!-- sec_six_content -->
+				
+				<span class="sec_six_name">Nicole C.</span><!-- sec_six_name -->
+				
+			</div><!-- sec_six_single_slide -->
+			
+			<div class="sec_six_single_slide">
+				
+				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/icon-stars.svg"); ?></span><!-- stars_svg -->
+				
+				<span class="sec_six_content">“4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.”</span><!-- sec_six_content -->
+				
+				<span class="sec_six_name">Nicole C.</span><!-- sec_six_name -->
+				
+			</div><!-- sec_six_single_slide -->
+			
+			
 			<div class="sec_six_buttons">
 				
 				<span class="left_button sec_six_button"><?php echo file_get_contents("wp-content/themes/dermer/images/new_slide_button.svg"); ?></span><!-- left_button -->
@@ -25,6 +56,8 @@
 			</div><!-- sec_six_buttons -->
 			
 		</div><!-- sec_six_slider -->
+		
+			<a class="testi_button mobile" href="">View All Testimonials</a><!-- testi_button -->
 		
 	</div><!-- sec_six_left -->
 	
@@ -37,7 +70,7 @@
 relationship</span><!-- large_header -->
 
 
-		<a class="testi_button" href="">View All Testimonials</a><!-- testi_button -->
+		<a class="testi_button desktop" href="">View All Testimonials</a><!-- testi_button -->
 		
 		
 	</div><!-- sec_six_right -->
