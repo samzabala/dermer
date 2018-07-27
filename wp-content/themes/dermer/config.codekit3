@@ -134,6 +134,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/section_seven.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section_seven.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/homepage\/section_six.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -247,6 +260,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-6.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-7.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-7.php",
 		"oF": 0
 		},
 	"\/images\/arrow-down.svg": {
@@ -465,6 +485,36 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/new_testimonials-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_testimonials-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_testimonials-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_testimonials-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_testimonials-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_testimonials-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/open_arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -631,7 +681,7 @@
 		"oAP": "\/images\/testimonials-bg-1920.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.php": {
