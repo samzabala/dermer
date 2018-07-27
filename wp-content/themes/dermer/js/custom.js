@@ -70,6 +70,24 @@ $('.sec_six_slider').slick({
   ]
 });
 
+
+
+$('.sec_seven_slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  mobileFirst:true,
+  arrows:false,
+  dots:true,
+  responsive: [
+	   
+    {
+      breakpoint: 1220,
+      settings: "unslick"
+    }
+  ]
+});
+
 	
 	
 	

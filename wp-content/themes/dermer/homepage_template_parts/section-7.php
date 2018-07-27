@@ -58,7 +58,7 @@
 				
 				<span class="svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_testimonials-3.svg"); ?></span><!-- svg -->
 				
-				<span class="amount">$300k</span><!-- amount -->
+				<span class="amount">$500k</span><!-- amount -->
 				
 				<span class="small_header">Construction litigation/defect premises liability</span><!-- small_header -->
 				
