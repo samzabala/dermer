@@ -19,7 +19,7 @@
 						
 						<span class="numbers"><span>f</span>(404) 892-8884</span><!-- numbers -->
 						
-						<a class="address" href="">6075 The Corners Parkway, Suite 210<br/> Peachtree Corners, GA 30092</a>
+						<a class="address" href="">6075 The Corners Parkway, <br class="mobile" /> Suite 210<br/> Peachtree Corners, GA 30092</a>
 						
 						<a class="google_maps" href="" target="_blank">Google Maps</a><!-- google_maps -->
 						

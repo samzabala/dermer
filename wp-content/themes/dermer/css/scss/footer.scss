@@ -23,7 +23,7 @@ footer {
 
 
 .footer_left_wrapper {
-	width:335px;
+	max-width:335px;
 	margin:118px auto 0;
 	span.footer_svg {
 		display: block;
@@ -75,6 +75,9 @@ footer {
 		text-decoration: none;
 		display: block;
 		padding-top:5px;
+		br.mobile {
+			display: none;
+		}
 	}
 	a.google_maps {
 		text-transform: uppercase;
@@ -126,11 +129,13 @@ footer {
 .footer_right {
 	flex-grow:1;
 	background: url(#{$themePath}images/pattern-blue.jpg) top left repeat;
+	padding-left:56px;
+	padding-right:56px;
 }
 
 
 .footer_right_inner {
-	width:927px;
+	max-width:927px;
 	margin:0 auto;
 	text-align: center;
 	padding: 125px 0 118px;
@@ -286,3 +291,114 @@ footer {
 }
 
 
+@media screen and (max-width: 1450px) {
+	
+	
+	
+.footer_left {
+	flex-basis: 504px;
+	span.large_header {
+		font-size: 90px;
+		line-height: 100px;
+	}
+}
+
+
+.footer_left_wrapper {
+   margin: 146px auto 0;
+ }
+ 
+ 
+ .footer_right_inner {
+   padding: 121px 0 118px;
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1190px) {
+	
+	
+	footer {
+		flex-direction: column;
+	}
+	
+	.footer_left {
+		order:2;
+	}
+	
+	.footer_right {
+		flex-basis: auto;
+		order:1;
+	}
+	
+	
+	.footer_right_inner {
+    max-width: 787px;
+    padding: 112px 0 99px;
+   }
+   
+   
+   footer {
+	   .form {
+		   ul {
+			   li {
+				  &:after {
+					  top: 32px;
+				  }
+			   	input,textarea {
+				   font-size:14px;
+				   border:0.5px solid #fff;
+				   padding: 23px 27px;
+					 }
+		   	}
+		   }
+		  }
+   }
+   
+   
+   .footer_left {
+	   padding:0 65px 84px;
+	   span.large_header {
+		   margin-top:65px;
+		   max-width: 475px;
+		   padding-left:0;
+	   }
+   }
+   
+   .footer_left_wrapper {
+	   margin: 93px 0 0;
+	   max-width: 800px;
+   }
+   
+   .footer_left_col {
+	   display: flex;
+	   width:100%;
+		 .footer_flex_left {
+			 flex-grow:1;
+			 .address {
+				 br.mobile {
+					 display: inline-block;
+				 }
+			 }
+		 }
+	   .footer_flex_right {
+		   margin-top:0;
+		   flex-basis:210px;
+		   span.right {
+			   margin-bottom:28px;
+		   }
+		   ul.social {
+			   li {
+				   margin-bottom: 32px;
+			   }
+		   }
+	   }
+   }
+   
+
+	
+	
+} /* Media Query */
