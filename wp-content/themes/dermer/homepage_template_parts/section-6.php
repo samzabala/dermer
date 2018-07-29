@@ -8,7 +8,7 @@
 			
 			<div class="sec_six_single_slide">
 				
-				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/icon-stars.svg"); ?></span><!-- stars_svg -->
+				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_icon_stars.svg"); ?></span><!-- stars_svg -->
 				
 				<span class="sec_six_content">“I did not know where to turn legally, until I met Kim Ruder and Daimon Carter, my earthly angels!  Kim and Daimon told me to heal and leave the legal stuff to them and I did.”</span><!-- sec_six_content -->
 				
@@ -18,7 +18,7 @@
 			
 			<div class="sec_six_single_slide">
 				
-				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/icon-stars.svg"); ?></span><!-- stars_svg -->
+				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_icon_stars.svg"); ?></span><!-- stars_svg -->
 				
 				<span class="sec_six_content">“2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.”</span><!-- sec_six_content -->
 				
@@ -28,7 +28,7 @@
 			
 			<div class="sec_six_single_slide">
 				
-				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/icon-stars.svg"); ?></span><!-- stars_svg -->
+				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_icon_stars.svg"); ?></span><!-- stars_svg -->
 				
 				<span class="sec_six_content">“3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.”</span><!-- sec_six_content -->
 				
@@ -38,7 +38,7 @@
 			
 			<div class="sec_six_single_slide">
 				
-				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/icon-stars.svg"); ?></span><!-- stars_svg -->
+				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_icon_stars.svg"); ?></span><!-- stars_svg -->
 				
 				<span class="sec_six_content">“4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.”</span><!-- sec_six_content -->
 				

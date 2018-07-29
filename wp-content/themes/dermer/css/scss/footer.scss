@@ -21,6 +21,47 @@ footer {
 	}
 }
 
+
+
+.footer_left_wrapper {
+	width:340px;
+	margin:118px auto 0;
+	span.footer_svg {
+		display: block;
+		margin-bottom:40px;
+		svg {
+			width:135px;
+			height: 50px;
+		}
+	}
+}
+
+.footer_flex_left {
+	span.small_header {
+		color:$bluelight;
+		font-family: $montserrat;
+		font-weight: 800;
+		text-transform: lowercase;
+		font-size:24px;
+	}
+	a,span {
+		color:$blue;
+	}
+	.numbers {
+		display: block;
+		text-decoration: none;
+		span {
+			text-transform: uppercase;
+		}
+	}
+}
+
+.footer_flex_right {
+	
+}
+
+
+
 .footer_right {
 	flex-grow:1;
 	background: url(#{$themePath}images/pattern-blue.jpg) top left repeat;
