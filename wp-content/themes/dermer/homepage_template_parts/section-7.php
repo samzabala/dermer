@@ -10,7 +10,7 @@
 				
 				<span class="amount">$300k</span><!-- amount -->
 				
-				<span class="small_header">Construction litigation/defect premises liability</span><!-- small_header -->
+				<span class="small_header">Construction litigation/ defect premises liability</span><!-- small_header -->
 				
 				<span class="sec_seven_arrow"><?php echo file_get_contents("wp-content/themes/dermer/images/new_slide_button.svg"); ?></span><!-- sec_seven_arrow -->
 				
@@ -35,7 +35,7 @@
 				
 				<span class="amount">$1m</span><!-- amount -->
 				
-				<span class="small_header">Construction litigation/defect premises liability</span><!-- small_header -->
+				<span class="small_header">Construction litigation/ defect premises liability</span><!-- small_header -->
 				
 				<span class="sec_seven_arrow"><?php echo file_get_contents("wp-content/themes/dermer/images/new_slide_button.svg"); ?></span><!-- sec_seven_arrow -->
 				
@@ -60,7 +60,7 @@
 				
 				<span class="amount">$500k</span><!-- amount -->
 				
-				<span class="small_header">Construction litigation/defect premises liability</span><!-- small_header -->
+				<span class="small_header">Construction litigation/ defect premises liability</span><!-- small_header -->
 				
 				<span class="sec_seven_arrow"><?php echo file_get_contents("wp-content/themes/dermer/images/new_slide_button.svg"); ?></span><!-- sec_seven_arrow -->
 				

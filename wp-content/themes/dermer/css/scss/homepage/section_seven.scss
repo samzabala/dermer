@@ -221,7 +221,7 @@
 				font-size:90px;
 			}
 			span.small_header {
-				smargin: 32px auto 0;
+				margin: 32px auto 0;
 			}
    	}
    
@@ -267,6 +267,8 @@
 	#section_seven {
 		background-image: none;
 		background-color: #f5f5f5;
+		height:auto;
+		padding-bottom:95px;
 	}
 	
 	
@@ -339,51 +341,150 @@
 
 	
 	.sec_seven_slider {
+		max-width:650px;
+		margin-left:auto;
+		margin-right:auto;
 		.slick-dots {
 			position: absolute;
-			bottom: -30px;
+			bottom: -48px;
 			left:0;
 			list-style: none;
 			li.slick-active {
 				button {
-/*
 					&:before {
-						color:#fff;
+						background:$bluelight;
 					}
-*/
 				}
 			}
 			li:hover {
 				button {
-/*
 					&:before {
-						color:#fff;
+						background: $bluelight;
 					}
-*/
 				}
 			}
 			li {
-				margin:0;
-				width:16px;
+				width:30px;
+				height:3px;
+				margin:0 5px;
 				list-style: none;
 				button {
-					width:16px;
-					background:$blue;
-				
-					
-/*
+					height:3px;
+					padding:0;
 					&:before {
-						width:16px;
+						width:100%;
+						height:100%;
 						opacity: 1;
-						color: red;
-						font-size:20px;
+						background: $blue;
+						content:"";
 					}
-*/
+
 				}
 			}
 		}
 	}
 
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1000px) {
+	
+	
+	.sec_seven_slider {
+		max-width:505px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	#section_seven {
+		padding-left:30px;
+		padding-right:30px;
+	}
+	
+	
+	.sec_seven_slider {
+    padding: 84px 0 0;
+    .slick-dots {
+			bottom: -41px;
+			li.slick-active {
+				button {
+					&:before {
+						
+					}
+				}
+			}
+			li:hover {
+				button {
+					&:before {
+						
+					}
+				}
+			}
+			li {
+				
+				button {
+					
+					&:before {
+						
+					}
+
+				}
+			}
+		}
+	}
+	
+	.sec_seven_single_slide {
+		padding: 201px 30px 0;
+		height: 500px;
+		span.svg {
+    	top: 62px;
+		}
+		span.amount {
+			font-size:70px;
+			&:after {
+				margin: 26px auto 0;
+			}
+		}
+		span.small_header {
+			margin-top:25px;
+		}
+		.sec_seven_hover {
+			span.view_results {
+				padding-left:15px;
+				padding-right:15px;
+				&:after {
+					width: 100%;
+					padding-left:5px;
+					padding-right:5px;
+				}
+			}
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 345px) {
+	
+	
+	
+	.sec_seven_single_slide {
+		span.amount {
+			font-size:55px;
+		}
+	}
+	
 	
 	
 } /* Media Query */
