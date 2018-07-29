@@ -77,7 +77,6 @@ $('.sec_seven_slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   mobileFirst:true,
-  fade:true,
   arrows:false,
   dots:true,
   responsive: [
