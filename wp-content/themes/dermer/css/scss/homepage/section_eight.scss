@@ -1,7 +1,7 @@
 #section_eight {
 	width:100%;
 	position: relative;
-	padding-bottom:225px;
+	padding:0 80px 225px;
 	overflow: hidden;
 	&:after {
 		content:"";
@@ -83,3 +83,197 @@ span.sec_eight_svg {
 		height: 390px;
 	}
 }
+
+
+@media screen and (max-width: 1615px) {
+	
+	
+#section_eight {
+	&:after {
+		width:1230px;
+		height: 789px;
+	}
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1560px) {
+	
+	
+	
+	.sec_eight_right {
+		.sec_eight_content {
+			padding-left:0%;
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1500px) {
+	
+	
+	#section_eight {
+		padding: 0 80px 170px;
+	}
+	
+	
+	.sec_eight_left {
+    margin: 246px 0 0;
+    &:after {
+	   	height: 803px;
+    }
+    span.sec_eight_caption {
+	    margin: 57px 0 0;
+    }
+  }
+  
+  
+  .sec_eight_right {
+	  margin: 107px 0 0;
+	  flex-basis: 740px;
+	  padding: 0 0 0 7%;
+	  span.large_header {
+		  font-size:92px;
+		  line-height: 100px;
+		  margin-bottom: 60px;
+	  }
+  }
+  
+  
+  
+  span.sec_eight_svg {
+	  top: 766px;
+	  left:-70px;
+  }
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1370px) {
+	
+	
+	#section_eight {
+		&:after {
+			width: 1110px;
+			height: 719px;
+		}
+	}
+	
+	
+	span.sec_eight_svg {
+		top:670px;
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1300px) {
+	
+	
+	#section_eight {
+		&:after {
+			height: 519px;
+		}
+	}
+	
+	
+	span.sec_eight_svg {
+		top:600px;
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	
+	#section_eight {
+		padding: 0 75px 105px;
+		&:after {
+			display: none;
+		}
+	}
+
+	
+	.sec_eight_inner {
+		flex-direction: column;
+	}
+	
+	
+	.sec_eight_left {
+		order:2;
+		margin-top:0;
+		
+		img {
+			display: none;
+		}
+		span.sec_eight_caption {
+			margin: 45px 0 0;
+			max-width:100%;
+			br {
+				display: none;
+			}
+			&:before {
+				margin: 0 0 20px;
+			}
+		}
+	}
+	
+	.sec_eight_right {
+		order:1;
+		padding-left:0;
+		margin: 85px 0 0;
+		span.large_header {
+			margin-bottom: 48px;
+		}
+	}
+	
+	
+	span.sec_eight_svg {
+		display: none;
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	#section_eight {
+		padding: 0 32px 70px;
+	}
+	
+	
+	.sec_eight_left {
+		span.sec_eight_caption {
+    	margin: 7px 0 0;
+		}
+	}
+	
+	.sec_eight_right {
+		margin: 65px 0 0;
+		span.large_header {
+			font-size:54px;
+			line-height: 60px;
+		}
+	} 
+	
+	
+	
+} /* Media Query */
