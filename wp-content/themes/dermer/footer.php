@@ -13,16 +13,27 @@
 			
 					<div class="footer_flex_left">
 						
-						<span class="small_header">Dermer appel ruder LLC</span><!-- large_header -->
+						<span class="small_header">dermer appel ruder LLC</span><!-- large_header -->
 						
 						<a class="numbers" href="tel:(404) 892-8884"><span>P</span>(404) 892-8884</a><!-- numbers -->
 						
 						<span class="numbers"><span>f</span>(404) 892-8884</span><!-- numbers -->
 						
+						<a class="address" href="">6075 The Corners Parkway, Suite 210<br/> Peachtree Corners, GA 30092</a>
+						
+						<a class="google_maps" href="" target="_blank">Google Maps</a><!-- google_maps -->
+						
 					</div><!-- footer_flex_left -->
 					
 					<div class="footer_flex_right">
 						
+						<span class="small_header right">stay connected</span><!-- large_header -->
+						
+						<ul class="social">
+							<li><a href="">Google +</a></li>
+							<li><a href="">Facebook</a></li>
+							<li><a href="">Linked In</a></li>
+						</ul>
 						
 					</div><!-- footer_flex_right -->
 			
