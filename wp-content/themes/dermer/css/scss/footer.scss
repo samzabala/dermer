@@ -127,5 +127,127 @@ footer {
 .footer_right {
 	flex-grow:1;
 	background: url(#{$themePath}images/pattern-blue.jpg) top left repeat;
-	
 }
+
+
+.footer_right_inner {
+	width:927px;
+	margin:0 auto;
+	text-align: center;
+	padding:125px 0;
+	span.free_case {
+		color:$bluelight;
+		display: block;
+		text-transform: uppercase;
+		font-family: $montserrat;
+		font-weight: 800;
+		font-size:18px;
+		letter-spacing: 0.2em;
+		&:after {
+			content:"";
+			width:53px;
+			height:5px;
+			background:$beige;
+			display: block;
+			margin:29px auto 0px;
+		}
+	}
+	span.free_case_excerpt {
+		color:#fff;
+		font-family: $playfair;
+		font-weight: 700;
+		font-size:34px;
+		line-height: 52px;
+	  max-width: 750px;
+		margin:14px auto 0;
+		display: block;
+	}
+	span.required {
+		color:$bluelight;
+		text-transform: lowercase;
+		font-size:17px;
+		font-weight: 700;
+		font-family: $playfair;
+		font-style: italic;
+		display: block;
+		margin-top:28px;
+		&:after {
+			content:"";
+			display: inline-block;
+			width:6px;
+			height:6px;
+			border-radius: 50%;
+			background:$bluelight;
+			vertical-align: top;
+			margin:6px 0 0 13px;
+		}
+	}
+}
+
+
+footer {
+	.form {
+		margin:80px 0 0;
+		ul {
+			list-style: none;
+			display: flex;
+			flex-wrap:wrap;
+			justify-content: space-between;
+			li#field_1_5 {
+				flex-basis: 100%;
+			}
+			li {
+				margin-bottom:13px;
+				position: relative;
+				flex-basis: 49.2%;
+				::-webkit-input-placeholder {
+				 	color: #fff;
+  				}
+				::-moz-placeholder {
+					color: #fff;
+  			}
+				:-moz-placeholder {
+					color: #fff;
+			  }
+				:-ms-input-placeholder {
+					color: #fff;
+  			}
+				::-moz-placeholder {
+					opacity: 1;
+	  		}
+	  		&:after {
+		  		content:"";
+					display: block;
+					width:6px;
+					height:6px;
+					border-radius: 50%;
+					background:$bluelight;
+					vertical-align: top;
+					position: absolute;
+					top:31px;
+					right:17px;
+					
+	  		}
+				label {
+					display: none;
+				}
+				input, textarea {
+					background: #112243;
+					border:1px solid #fff;
+					color:#fff;
+					font-family: $montserrat;
+					font-weight: 700;
+					text-transform: lowercase;
+					font-size:17px;
+					padding:22px 37px;
+					width:100%;
+				}
+				input {
+					
+				}
+			}
+		}
+	}
+}
+
+

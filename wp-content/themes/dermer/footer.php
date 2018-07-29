@@ -43,7 +43,26 @@
 		
 	</div><!-- footer_left -->
 	
-	<div class="footer_right"></div><!-- footer_right -->
+	<div class="footer_right">
+		
+		
+		<div class="footer_right_inner">
+			
+			<span class="free_case">Free Case Evaluation</span><!-- free_case -->
+			
+			<span class="free_case_excerpt">We view each case as an opportunity to be your colleague, not just your attorney.</span><!-- free_case_excerpt -->
+			<span class="required">Fields Required</span><!-- required -->
+			
+			<div class="form">
+				
+				<?php gravity_form(1, false, false, false, '', true, 124); ?>
+				
+			</div><!-- form -->
+			
+		</div><!-- footer_right_inner -->
+		
+		
+	</div><!-- footer_right -->
 	
 	
 </footer>
