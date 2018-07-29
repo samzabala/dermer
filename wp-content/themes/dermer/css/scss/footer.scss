@@ -1,7 +1,6 @@
 footer {
 	width:100%;
 	display: flex;
-	height:3000px;
 }
 
 
@@ -134,7 +133,7 @@ footer {
 	width:927px;
 	margin:0 auto;
 	text-align: center;
-	padding:125px 0;
+	padding: 125px 0 118px;
 	span.free_case {
 		color:$bluelight;
 		display: block;
@@ -195,6 +194,9 @@ footer {
 			justify-content: space-between;
 			li#field_1_5 {
 				flex-basis: 100%;
+				&:after {
+					left:230px;
+				}
 			}
 			li {
 				margin-bottom:13px;
@@ -245,8 +247,41 @@ footer {
 				input {
 					
 				}
+				textarea {
+					height:220px;
+				}
 			}
 		}
+		input[type="submit"] {
+			background:$bluelight;
+			border:none;
+			color:#fff;
+			font-family: $montserrat;
+			font-weight: 800;
+			text-transform: uppercase;
+			font-size:18px;
+			letter-spacing: 0.2em;
+			margin-top:35px;
+			padding:21px 130px;
+			cursor: pointer;
+			transition: all 200ms ease-in-out;
+			&:hover {
+				background: #fff;
+				color:$bluelight;
+			}
+		}
+	}
+	.validation_error {
+		display: none;
+	}
+	.gfield_description, .validation_message {
+		color:#fff;
+		text-align: left;
+		text-transform: lowercase;
+		font-family: $montserrat;
+		font-size:13px;
+		margin-top:6px;
+		padding-left:37px;
 	}
 }
 
