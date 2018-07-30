@@ -15,10 +15,7 @@
 	
 	<div class="sidebar_list">
 		
-		
-		<ul>
-			
-		</ul>
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
 		
 	</div><!-- sidebar_list -->
 	

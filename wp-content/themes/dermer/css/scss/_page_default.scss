@@ -14,7 +14,6 @@
 .sidebar_wrapper {
 	flex-basis:550px;
 	flex-shrink:0;
-	
 }
 
 
@@ -143,6 +142,66 @@
 		}
 	}
 }
+
+
+
+
+
+
+
+.sidebar_list {
+	padding:105px 0 0;
+	width:260px;
+	ul {
+		list-style: none;
+		li {
+			color:$blue;
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+	ul.menu {
+		> li {
+				font-family: $montserrat;
+				font-weight: 800;
+				font-size: 24px;
+				line-height: 31px;
+				text-transform: lowercase;
+				margin-bottom:30px;
+				position: relative;
+				&:after {
+					content:"";
+					background: url(#{$themePath}images/nav_arrow.svg) top left no-repeat;
+					width:13px;
+					height:13px;
+					display: block;
+					position: absolute;
+					top:11px;
+					right:-24px;
+				}
+			}
+		}
+	ul.sub-menu {
+		//display: none;
+// 		margin:45px 0 47px;
+		margin:45px 0 0px;
+		li {
+			text-transform: uppercase;
+			font-size:14px;
+			letter-spacing: 0.2em;
+			margin-bottom:20px;
+			&:last-of-type {
+				margin-bottom:47px;
+			}
+		}
+	}
+}
+
+
+
+
+
 
 
 
