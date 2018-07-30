@@ -108,7 +108,7 @@ $('.nav_col_one ul li a').on('click', function(e) {
 
 
 
-$('.menu_wrapper').on('click', function(e) {
+$('.menu_wrapper, .mobile_right').on('click', function(e) {
   
 
 	$('nav').addClass('open');
@@ -122,9 +122,15 @@ $('nav .close').on('click', function(e) {
 
 	$('nav').addClass('close_nav');
 	
+	$('.back_wrapper').removeClass('fadein');
+	
+	$('.nav_col_one').removeClass('fadeout');
+	
+	$('.nav_col_two').removeClass('fadein');
 	
 	
-	$('nav').delay(1500).queue(function(){
+	
+	$('nav').delay(900).queue(function(){
      
 		$(this).removeClass('open close_nav').dequeue();
   
