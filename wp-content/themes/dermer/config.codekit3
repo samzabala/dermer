@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "5F31EE53-4C5B-44C1-BC06-73C2119F274B"
+		"uuidString": "08248D84-A96F-43A3-828D-2599D282337E"
 		}
 	],
 "creatorBuild": "26680",
@@ -357,7 +357,7 @@
 		},
 	"\/images\/atty-doe.jpg": {
 		"ft": 16384,
-		"iS": 40919,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/atty-doe.jpg",
@@ -368,7 +368,7 @@
 		},
 	"\/images\/content-2-img.jpg": {
 		"ft": 16384,
-		"iS": 52778,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-2-img.jpg",
@@ -389,7 +389,7 @@
 		},
 	"\/images\/content-3-img.jpg": {
 		"ft": 16384,
-		"iS": 76119,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-3-img.jpg",
@@ -410,7 +410,7 @@
 		},
 	"\/images\/hero-1920.jpg": {
 		"ft": 16384,
-		"iS": 193236,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-1920.jpg",
@@ -421,7 +421,7 @@
 		},
 	"\/images\/hero-414.jpg": {
 		"ft": 16384,
-		"iS": 32333,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-414.jpg",
@@ -432,7 +432,7 @@
 		},
 	"\/images\/hero-768.jpg": {
 		"ft": 16384,
-		"iS": 67110,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-768.jpg",
@@ -496,6 +496,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/logo-ilawyer-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/nav_arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/nav_arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -667,7 +677,7 @@
 		},
 	"\/images\/pa-5.jpg": {
 		"ft": 16384,
-		"iS": 36952,
+		"iS": 37894,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pa-5.jpg",
@@ -678,7 +688,7 @@
 		},
 	"\/images\/pa-6.jpg": {
 		"ft": 16384,
-		"iS": 100951,
+		"iS": 101867,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pa-6.jpg",
@@ -689,7 +699,7 @@
 		},
 	"\/images\/pattern-blue.jpg": {
 		"ft": 16384,
-		"iS": 25642,
+		"iS": 26569,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pattern-blue.jpg",
@@ -700,7 +710,7 @@
 		},
 	"\/images\/pattern-white.jpg": {
 		"ft": 16384,
-		"iS": 26004,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pattern-white.jpg",
@@ -771,13 +781,13 @@
 		},
 	"\/images\/testimonials-bg-1920.jpg": {
 		"ft": 16384,
-		"iS": 164399,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/testimonials-bg-1920.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.php": {
@@ -1082,7 +1092,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 555544,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
@@ -1135,10 +1145,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 554575509,
+	"creationDate": 553448690,
 	"displayValue": "dermer",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ron",
+	"iconImageName": "meme-archer",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
