@@ -106,6 +106,14 @@
 		
 		<div class="close"></div><!-- close -->
 		
+		<div class="back_wrapper">
+			
+			<span class="back_arrow"><?php echo file_get_contents("wp-content/themes/dermer/images/nav_arrow.svg"); ?></span><!-- back_arrow -->
+			
+			<span class="back_title">Back</span>
+			
+		</div><!-- back_wrapper -->
+		
 		<div class="nav_left">
 			
 			<span class="free_case">Free Case Evaluation</span><!-- free_case -->

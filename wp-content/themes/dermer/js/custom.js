@@ -176,6 +176,50 @@ $('.nav_col_one li.menu-item-has-children a').on('click', function(e) {
 
 
 
+	
+	var windowWidth = $(window).width();
+
+
+
+	function checkWidthnav() {
+    
+    if (windowWidth < 1180) {
+        
+      
+    	$('.nav_col_one ul li.menu-item-has-children a').on('click', function(e) {
+    	  
+    	
+    		$('.nav_col_one').addClass('fadeout');
+    		
+    		$('.nav_col_two').addClass('fadein');
+    		
+    		$('.back_wrapper').addClass('fadein');
+    	
+    	
+    	});
+    	
+    	
+    	$('.back_wrapper').on('click', function(e) {
+    	  
+    	
+    		$(this).removeClass('fadein');
+    		
+    		$('.nav_col_one').removeClass('fadeout');
+    		
+    		$('.nav_col_two').removeClass('fadein');
+    	
+    	});
+    	   		
+    		
+    } 
+    
+
+		
+};
+	
+
+checkWidthnav();
+
 
 
 
