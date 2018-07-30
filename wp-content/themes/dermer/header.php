@@ -43,7 +43,7 @@
 		<div class="header_left">
 			
 			
-			<a href="">
+			<a href="<?php bloginfo('url');?>">
 				
 				<?php echo file_get_contents("wp-content/themes/dermer/images/logo-dar.svg"); ?>
 				
@@ -101,6 +101,32 @@
 		</div><!-- mobile_right -->
 		
 	</section><!-- sticky_header -->
+	
+	<nav>
+		
+		<div class="nav_left">
+			
+			<span class="free_case">Free Case Evaluation</span><!-- free_case -->
+			
+			<span class="free_case_excerpt">We view each case as an opportunity to be your colleague, not just your attorney.</span><!-- free_case_excerpt -->
+			<span class="required">Fields Required</span><!-- required -->
+			
+			<div class="form">
+				
+				<?php gravity_form(2, false, false, false, '', true, 1299); ?>
+				
+			</div><!-- form -->
+			
+			
+		</div><!-- nav_left -->
+		
+		<div class="nav_right">
+			
+			
+		</div><!-- nav_right -->
+		
+		
+	</nav>
 		
 		
 	</header>
