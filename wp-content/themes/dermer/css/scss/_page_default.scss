@@ -7,18 +7,146 @@
 .inner_main {
 	min-height: 500px;
 	margin: 130px auto 0;
+	height:3000px;
 }
 
 
 .sidebar_wrapper {
 	flex-basis:550px;
-	background: red;
 	flex-shrink:0;
 	
 }
 
 
+.sidebar_form {
+	background:#f5f5f5;
+	text-align: center;
+	padding: 129px 45px 118px;
+	span.free_case_title {
+		text-transform: uppercase;
+		color:$bluelight;
+		font-family: $montserrat;
+		font-weight: 800;
+		font-size:18px;
+		letter-spacing: 0.2em;
+		&:after {
+			content:"";
+			width:50px;
+			height:5px;
+			display: block;
+			background: $beige;
+			margin:25px auto;
+		}
+	}
+	ul {
+		list-style: none;
+		text-align: left;
+		padding-top:25px;
+		li {
+			width:100%;
+			margin-bottom:14px;
+			position: relative;
+			&:after {
+		  	content:"";
+				display: block;
+				width:6px;
+				height:6px;
+				border-radius: 50%;
+				background:$bluelight;
+				vertical-align: top;
+				position: absolute;
+				top:35px;
+				right:45px;
+			}
+			label {
+				display: none;
+			}
+			input,textarea {
+				border:none;
+				width:100%;
+				text-transform: lowercase;
+				color:#d4d9da;
+				font-family: $montserrat;
+				font-weight: 700;
+				font-size:16px;
+				padding:24px 30px 24px 30px;
+			}
+			textarea {
+				height:148px;
+			}
+			::-webkit-input-placeholder {
+				 color: $blue;
+  		}
+			::-moz-placeholder {
+				color: $blue;
+  		}
+			:-moz-placeholder {
+				color: $blue;
+			 }
+			:-ms-input-placeholder {
+				color: $blue;
+  		}
+			::-moz-placeholder {
+				opacity: 1;
+	  	}
+		}
+	}
+	input[type="submit"] {
+		background: $bluelight;
+		border:none;
+		color:#fff;
+		text-transform: uppercase;
+		font-family: $montserrat;
+		font-weight: 800;
+		font-size:18px;
+		letter-spacing: 0.2em;
+		padding:23px 45px;
+		width:100%;
+		transition: all 200ms ease-in-out;
+		cursor: pointer;
+		&:hover {
+			background: #fff;
+			color:$bluelight;
+		}
+	}
+	.validation_error {
+		display: none;
+	}
+	.gfield_description, .validation_message {
+		color:$bluelight;
+		text-align: left;
+		text-transform: lowercase;
+		font-family: $montserrat;
+		font-size:13px;
+		margin-top:6px;
+		font-weight: 700;
+		padding-left:30px;
+	}
+	span.required {
+		color:$bluelight;
+		text-transform: lowercase;
+		font-size:17px;
+		font-weight: 700;
+		font-family: $playfair;
+		font-style: italic;
+		display: block;
+		margin-top:35px;
+		&:after {
+			content:"";
+			display: inline-block;
+			width:6px;
+			height:6px;
+			border-radius: 50%;
+			background:$bluelight;
+			vertical-align: top;
+			margin:6px 0 0 11px;
+		}
+	}
+}
+
+
+
+
 .inner_content {
 	flex-grow:1;
-	background:blue;
 }
