@@ -1,0 +1,24 @@
+.two_col {
+	max-width:1630px;
+	display: flex;
+}
+
+
+.inner_main {
+	min-height: 500px;
+	margin: 130px auto 0;
+}
+
+
+.sidebar_wrapper {
+	flex-basis:550px;
+	background: red;
+	flex-shrink:0;
+	
+}
+
+
+.inner_content {
+	flex-grow:1;
+	background:blue;
+}

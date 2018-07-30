@@ -1,13 +1,25 @@
 <?php get_header(); ?>
 
 
+<div class="inner_main two_col">
+	
+	<?php get_sidebar(); ?>
+	
+	<div class="inner_content content">
+		
+		
+		
+	</div><!-- inner_content -->
+	
+</div><!-- inner_main -->
 
-<?php get_template_part( 'loop', 'index' );?>
+<?php get_footer(); ?>
 
-<?php //use get_template_part( 'loop', 'page' ) if needed ?>
+
+
+
+<?php // get_template_part( 'loop', 'page' );?>
 
 	
 
-<?php // get_sidebar(); ?>
 
-<?php get_footer(); ?>
