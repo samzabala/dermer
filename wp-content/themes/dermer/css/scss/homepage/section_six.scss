@@ -441,3 +441,48 @@ a.testi_button.mobile {
 	
 	
 } /* Media Query */
+
+
+@media screen and (max-width: 406px) {
+	
+	
+	.sec_six_right {
+		span.large_header {
+			font-size: 44px;
+			line-height: 54px;
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 364px) {
+	
+	
+	.sec_six_right {
+		span.large_header {
+			font-size: 40px;
+			line-height: 50px;
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 342px) {
+	
+	
+	.sec_six_right {
+		span.large_header {
+			font-size: 37px;
+			line-height: 48px;
+		}
+	}
+	
+	
+} /* Media Query */
+
+

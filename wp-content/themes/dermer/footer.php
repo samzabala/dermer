@@ -67,6 +67,23 @@
 	
 </footer>
 
+<div class="copyright">
+	
+	<ul>
+		<li>2018 Dermer Appel Ruder LLC</li>
+		<li>All Rights Reserved</li>
+		<li><a href="">Google +</a></li>
+	</ul>
+	
+	
+	<a class="ilawyer" href="">
+		
+		<?php echo file_get_contents("wp-content/themes/dermer/images/logo-ilawyer-01.svg"); ?>
+		
+	</a><!-- ilawyer -->
+	
+</div><!-- copyright -->
+
 <?php wp_footer();?>
 
 
