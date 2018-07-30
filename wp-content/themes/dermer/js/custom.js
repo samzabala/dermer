@@ -228,7 +228,16 @@ checkWidthnav();
 
 
 
+// sidebar 
 
+
+$('.sidebar_list ul.menu > li >a').on('click', function(e) {
+  
+  
+  $(this).next('ul.sub-menu').toggleClass('open');
+  
+  
+});
 	
 	
 		
