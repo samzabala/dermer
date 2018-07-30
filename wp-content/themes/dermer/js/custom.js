@@ -88,11 +88,34 @@ $('.sec_seven_slider').slick({
   ]
 });
 
+
+$('.nav_col_one ul li a').on('click', function(e) {
+  
+
+$(".nav_col_two").empty();
+	  
+	$(this).next('ul.sub-menu').clone().appendTo('.nav_col_two').fadeIn();
+
+
+/*
+	$('.nav_dropdown').delay(1500).queue(function(){
+     
+		$(this).removeClass('slidein slideout').dequeue();
+  
+	});
+*/
 	
 	
+
+
+
+
+
+
+});
+
 	
 	
-	
-	
+		
   
 }); // document ready

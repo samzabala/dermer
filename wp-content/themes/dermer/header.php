@@ -104,6 +104,8 @@
 	
 	<nav>
 		
+		<div class="close"></div><!-- close -->
+		
 		<div class="nav_left">
 			
 			<span class="free_case">Free Case Evaluation</span><!-- free_case -->
@@ -122,6 +124,19 @@
 		
 		<div class="nav_right">
 			
+			<div class="nav_col nav_col_one">
+				
+				
+				
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+				
+			</div><!-- nav_col_one -->
+			
+			<div class="nav_col nav_col_two">
+				
+				
+			</div><!-- nav_col_two -->
+			
 			
 		</div><!-- nav_right -->
 		
@@ -134,5 +149,5 @@
 	
 				
 
-<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+
 			
