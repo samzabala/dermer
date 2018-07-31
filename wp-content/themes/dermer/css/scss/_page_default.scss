@@ -1,13 +1,13 @@
 .two_col {
-	max-width:1630px;
+	max-width:1930px;
 	display: flex;
+	padding:0 150px 150px;
 }
 
 
 .inner_main {
 	min-height: 500px;
-	margin: 130px auto 0;
-	height:3000px;
+	margin: 128px auto 0;
 }
 
 
@@ -152,6 +152,8 @@
 .sidebar_list {
 	padding:105px 0 0;
 	width:280px;
+	margin-left:auto;
+	margin-right:auto;
 	ul {
 		list-style: none;
 		li {
@@ -187,41 +189,128 @@
 							color:$bluelight;
 						}
 				}
+				> a.active {
+						color:$bluelight;
+				}
 			}
 		}
+	ul.sub-menu.close {
+		height:0 !important;
+		overflow: hidden;
+	}
 	ul.sub-menu.open {
-		margin:45px 0 0px;
-		height:300px;
-		opacity: 1;
-		visibility: visible;
-		li {
-			margin-bottom:20px;
-			
-		}
+		//overflow: auto;
+		margin-top:45px;
+		margin-bottom:15px;
 	}
 	ul.sub-menu {
-		margin:0px 0 0px;
+		margin:0px;
+		transition: all 400ms ease-in-out;
 		height: 0;
-		opacity: 0;
-		visibility: hidden;
-		transition: all 500ms linear;
 		li {
 			text-transform: uppercase;
 			font-size:14px;
 			letter-spacing: 0.2em;
-			margin-bottom:0px;
+			margin-bottom:20px;
+			a {
+				color:$blue;
+				transition: all 200ms ease-in-out;
+				&:hover {
+					color:$bluelight;
+				}
+			}
+			
 		}
 	}
 }
-
-
-
-
-
-
 
 
 
 .inner_content {
 	flex-grow:1;
+	padding-left:7%;
+	margin:95px 0 0;
 }
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	
+	.sidebar_wrapper {
+   	flex-basis: 450px;
+   	span.free_case_title {
+	   	line-height: 23px;
+   	}
+  }
+	
+	
+	
+	
+} /* Media Query */
+
+@media screen and (max-width: 1265px) {
+	
+	
+	
+	.two_col {
+		padding-left:75px;
+		padding-right:75px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1250px) {
+	
+	.inner_main {
+	   margin: 100px auto 0;
+	 }
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1100px) {
+	
+	
+	.inner_main {
+    margin: 100px auto 0;
+	}
+	
+	.two_col {
+		flex-direction: column;
+		padding: 0 0px 55px;
+	}
+	
+	.sidebar_wrapper {
+		flex-basis: auto;
+		order:2;
+		margin-top: 105px;
+	}
+	
+	.sidebar_form {
+		padding: 79px 45px 118px;
+		.gform_wrapper {
+			max-width:600px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+	}
+	
+	
+	.sidebar_list {
+		padding: 77px 0 0;
+	}
+	
+	.inner_content {
+		order:1;
+		padding-left:0;
+		margin: 59px 75px 0;
+	}
+	
+	
+} /* Media Query */

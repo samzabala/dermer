@@ -3,7 +3,9 @@
 	
 	<div class="footer_left">
 		
-		<span class="large_header">We work for you</span><!-- large_header -->
+		<span class="large_header footer_title">We work for you</span><!-- large_header -->
+		
+		<span class="footer_design"><?php echo file_get_contents("wp-content/themes/dermer/images/new_sec_eight_bg.svg"); ?></span><!-- footer_design -->
 		
 			<div class="footer_left_wrapper">
 		

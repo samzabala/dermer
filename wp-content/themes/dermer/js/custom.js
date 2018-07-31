@@ -231,13 +231,31 @@ checkWidthnav();
 // sidebar 
 
 
-$('.sidebar_list ul.menu > li >a').on('click', function(e) {
+$('.sidebar_list ul.sub-menu').wrapInner('<div class="sub_menu_wrap"></div>');
+
+
+$('.sidebar_list ul.menu > li > ul.sub-menu').addClass('close');
+
+
+$('.sidebar_list ul.menu > li > a').on('click', function(e) {
   
+  $(this).toggleClass('active');
   
   $(this).next('ul.sub-menu').toggleClass('open');
   
+  $(this).next('ul.sub-menu').toggleClass('close');
+  
+  // alert($(this).next('.sub_menu_wrap').find('ul.sub-menu').height());
+  
+  var currentheight = $(this).next('ul.sub-menu').find('.sub_menu_wrap').height();
+  
+  $(this).next('ul.sub-menu').css("height", currentheight);
+  
   
 });
+
+
+
 	
 	
 		
