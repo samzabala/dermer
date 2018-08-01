@@ -47,6 +47,7 @@ img.aligncenter {
 		border-bottom:solid 5px $beige;
 		padding-bottom:51px;
 		margin-bottom:40px;
+		color:$blue;
 	}
 	h2 {
 		color:$bluelight;
@@ -165,6 +166,9 @@ img.aligncenter {
 			padding-bottom: 20px;
 			margin-bottom: 39px;
 			line-height: 62px;
+		}
+		ul,ol {
+			padding-left:5px;
 		}
 	}
 	
