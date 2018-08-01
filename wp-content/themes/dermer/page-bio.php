@@ -13,7 +13,18 @@
 				
 				<div class="image_inner_wrapper">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/atty-doe.jpg"/>
+					<?php $attorney_image = get_field( 'attorney_image' ); ?>
+					
+					<?php if ( $attorney_image ): ?>
+					
+					<img src="<?php echo $attorney_image['url']; ?>" alt="<?php echo $attorney_image['alt']; ?>" />
+					
+					
+					<?php else:?>
+					
+						<img src="<?php bloginfo('template_url');?>/images/placeholder.jpg" alt="placeholder" />
+					
+					<?php endif; ?>
 					
 				</div><!-- image_inner_wrapper -->
 				
@@ -23,7 +34,7 @@
 			
 				<h1 class="page_title"><?php the_title();?></h1><!-- page_title -->
 		
-				<span class="position_title">partner</span><!-- position_title -->
+				<span class="position_title"><?php the_field( 'attorney_position' ); ?></span><!-- position_title -->
 			
 			</div><!-- inner_container_right -->
 		

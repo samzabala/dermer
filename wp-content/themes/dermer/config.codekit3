@@ -69,6 +69,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page_team.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page_team.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -745,6 +758,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/placeholder.jpg": {
+		"ft": 16384,
+		"iS": 7103,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/placeholder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/sp-1bg.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1114,6 +1138,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-home.php",
+		"oF": 0
+		},
+	"\/page-team.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-team.php",
 		"oF": 0
 		},
 	"\/page.php": {
