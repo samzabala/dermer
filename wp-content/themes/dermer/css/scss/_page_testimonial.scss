@@ -18,10 +18,13 @@
 h1.centered {
 	text-align: center;
 	position: relative;
+	font-family: $playfair;
+	font-weight: 700;
 	z-index: 1;
 	font-size:100px;
 	padding:110px 0 0;
 	display: block;
+	padding: 102px 0 0;
 }
 
 

@@ -1,0 +1,225 @@
+  
+ body.page-template-page-practiceareas_directory {
+  .inner_main.pattern {
+	  &:after {
+		  height: 299px;
+	  }
+  }
+ }
+  
+  
+  
+
+
+
+.pa_page_wrapper {
+	position: relative;
+	z-index: 1;
+	max-width:1525px;
+	margin:195px auto 115px;
+	text-align: center;
+	ul {
+		list-style: none;
+		li {
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+	ul.menu {
+		> li {
+				> a {
+						color:$bluelight;
+						text-transform: lowercase;
+						font-family: $montserrat;
+						font-weight: 800;
+						font-size:31px;
+						line-height: 38px;
+						&:after {
+							content:"";
+							width:45px;
+							height:5px;
+							background: $beige;
+							display: block;
+							margin:30px auto;
+						}
+				}
+		}
+	}
+	ul.sub-menu {
+		padding:3px 0 138px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		&:after {
+			content: "";
+			display: block;
+			flex-basis: 31%;
+		}
+		li {
+			text-transform: uppercase;
+			flex-basis:31%;
+			font-family: $montserrat;
+			font-weight: 800;
+			font-size:14px;
+			line-height: 20px;
+			letter-spacing: 0.2em;
+			margin: 0 0 10px;
+			height:40px;
+			a {
+				color:$blue;
+				transition: all 200ms ease-in-out;
+				&:hover {
+					color:$bluelight;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	  
+ body.page-template-page-practiceareas_directory {
+  .inner_main.pattern {
+	  &:after {
+		  height: 230px;
+	  }
+  }
+ }
+  
+	.pa_page_wrapper {
+    margin: 159px auto 115px;
+   }
+	 
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1100px) {
+	
+	
+	
+
+	
+	
+.pa_page_wrapper {
+	margin-bottom:50px;
+	ul {
+		
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		> li {
+				> a {
+						
+						&:after {
+							
+						}
+				}
+		}
+	}
+	ul.sub-menu {
+		padding: 3px 0 59px;
+		&:after {
+			flex-basis: 48%;
+		}
+		li {
+			flex-basis:48%;
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	body.page-template-page-practiceareas_directory .inner_main.pattern:after {
+		height: 137px;
+	}
+	
+	
+	
+	.pa_page_wrapper {
+		margin: 85px auto 25px;
+	}
+	
+	
+	
+.pa_page_wrapper {
+	
+	ul {
+		
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		> li {
+				> a {
+						font-size:26px;
+						&:after {
+							
+						}
+				}
+		}
+	}
+	ul.sub-menu {
+		padding: 3px 0 30px;
+		&:after {
+			display: none;
+		}
+		li {
+			flex-basis: 100%;
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 358px) {
+	
+	
+	body.page-template-page-practiceareas_directory .inner_main.pattern:after {
+    height: 178px;
+}
+	
+	
+} /* Media Query */

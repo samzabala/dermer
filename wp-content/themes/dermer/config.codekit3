@@ -56,6 +56,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-practice-areas.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-practice-areas.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page_caseresults.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1171,6 +1184,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-home.php",
+		"oF": 0
+		},
+	"\/page-practiceareas_directory.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-practiceareas_directory.php",
 		"oF": 0
 		},
 	"\/page-team.php": {
