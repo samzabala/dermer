@@ -1,0 +1,81 @@
+.inner_main.pattern {
+	position: relative;
+	&:after {
+		content:"";
+		display: block;
+		width:100%;
+		height:630px;
+		position: absolute;
+		top:0;
+		left:0;
+		background: url(#{$themePath}images/pattern-white.jpg) top left repeat;
+	}
+}
+
+
+.testimonial_wrapper {
+	max-width: 1550px;
+	margin:120px auto 0;
+	display: flex;
+	height:3000px;
+	position: relative;
+	z-index:1;
+	.testi_col {
+		width:50%;
+		.single_test {
+			background:#fff;
+			box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.28);
+			padding:58px 45px 100px;
+			span.stars {
+				display: block;
+				text-align: center;
+				margin:0 auto 48px;
+				svg {
+					width:130px;
+				}
+			}
+			span.testi_intro {
+				color:$bluelight;
+				font-size:34px;
+				line-height: 54px;
+				font-family: $playfair;
+				font-weight: 800;
+				max-width:200px;
+				margin: 0 auto;
+			}
+			.testi_content {
+				font-size:16px;
+				line-height: 28px;
+				font-family: $montserrat;
+				font-weight: 400;
+				margin-top:30px;
+				p {
+					margin-bottom:30px;
+				}
+			}
+			span.name {
+				color:$bluelight;
+				font-size: 20px;
+				font-family: $playfair;
+				font-weight: 700;
+				font-style: italic;
+				display: block;
+				padding-top:8px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+h1.centered {
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	font-size:100px;
+	padding:110px 0 0;
+	display: block;
+}
