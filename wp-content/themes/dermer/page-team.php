@@ -16,171 +16,53 @@
 		<div class="att_page_wrapper">
 			
 			
-			
-			
-			
-			<div class="att_page_single">
+			<?php $attorneys = get_field( 'attorneys' ); ?>
+
+			<?php if ( $attorneys ): ?>
+	
+				<?php foreach ( $attorneys as $post ):  ?>
 				
-				<a class="" href="">
+				<?php setup_postdata ( $post ); ?>
+				
+					<div class="att_page_single">
+				
+						<a class="" href="<?php the_permalink();?>">
 					
-					<div class="att_image_wrapper">
+							<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/atty-doe.jpg"/>
+								<?php $attorney_image = get_field( 'attorney_image' ); ?>
+								
+								<?php if ( $attorney_image) : ?>
+								
+									<img src="<?php echo $attorney_image['url']; ?>" alt="<?php echo $attorney_image['alt']; ?>" />
+								
+									<?php else:?>
+								
+									<img src="<?php bloginfo('template_directory');?>/images/placeholder.jpg" alt="Placeholder" />
+								
+								
+									<?php endif;?>
+								
 						
-						<div class="att_overlay"></div><!-- att_overlay -->
+								<div class="att_overlay"></div><!-- att_overlay -->
 					
-					</div><!-- att_image_wrapper -->
+							</div><!-- att_image_wrapper -->
 					
-					<span class="att_page_title">Stephen Dermer</span><!-- att_page_title -->
+							<span class="att_page_title"><?php the_title();?></span><!-- att_page_title -->
 					
-					<span class="att_page_position">Partner</span><!-- att_page_position -->
+							<span class="att_page_position">Partner</span><!-- att_page_position -->
 					
-				</a>
+					</a>
 				
-			</div><!-- att_page_single -->
+				</div><!-- att_page_single -->
+	
+				<?php endforeach; ?>
+
+			<?php wp_reset_postdata(); ?>
 			
-			<div class="att_page_single">
-				
-				<a class="" href="">
-					
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/atty-doe.jpg"/>
+			<?php endif; ?>
+
 						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_page_title">Stephen Dermer</span><!-- att_page_title -->
-					
-					<span class="att_page_position">Partner</span><!-- att_page_position -->
-					
-				</a>
-				
-			</div><!-- att_page_single -->
-			
-			<div class="att_page_single">
-				
-				<a class="" href="">
-					
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/atty-doe.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_page_title">Stephen Dermer</span><!-- att_page_title -->
-					
-					<span class="att_page_position">Partner</span><!-- att_page_position -->
-					
-				</a>
-				
-			</div><!-- att_page_single -->
-			
-			<div class="att_page_single">
-				
-				<a class="" href="">
-					
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_page_title">Stephen Dermer</span><!-- att_page_title -->
-					
-					<span class="att_page_position">Partner</span><!-- att_page_position -->
-					
-				</a>
-				
-			</div><!-- att_page_single -->
-			
-			<div class="att_page_single">
-				
-				<a class="" href="">
-					
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/atty-doe.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_page_title">Stephen Dermer</span><!-- att_page_title -->
-					
-					<span class="att_page_position">Partner</span><!-- att_page_position -->
-					
-				</a>
-				
-			</div><!-- att_page_single -->
-			
-			<div class="att_page_single">
-				
-				<a class="" href="">
-					
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/atty-doe.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_page_title">Stephen Dermer</span><!-- att_page_title -->
-					
-					<span class="att_page_position">Partner</span><!-- att_page_position -->
-					
-				</a>
-				
-			</div><!-- att_page_single -->
-			
-			<div class="att_page_single">
-				
-				<a class="" href="">
-					
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/atty-doe.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_page_title">Stephen Dermer</span><!-- att_page_title -->
-					
-					<span class="att_page_position">Partner</span><!-- att_page_position -->
-					
-				</a>
-				
-			</div><!-- att_page_single -->
-			
-			<div class="att_page_single">
-				
-				<a class="" href="">
-					
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/atty-doe.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_page_title">Stephen Dermer</span><!-- att_page_title -->
-					
-					<span class="att_page_position">Partner</span><!-- att_page_position -->
-					
-				</a>
-				
-			</div><!-- att_page_single -->
-			
-						
-			
 			
 		</div><!-- att_page_wrapper -->
 		
