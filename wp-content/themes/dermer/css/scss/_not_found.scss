@@ -1,0 +1,25 @@
+.not_found_wrapper {
+	text-align: center;
+	padding-top:155px;
+	h1.not_found {
+		color:$bluelight;
+		font-size:190px;
+		font-family: $montserrat;
+		font-weight: 800;
+		&:after {
+			content:"";
+			width:45px;
+			height:5px;
+			background:$beige;
+			display: block;
+			margin:18px auto;
+		}
+	}
+	span.large_header {
+		font-family: $montserrat;
+		font-weight: 700;
+		font-size:36px;
+		line-height: 42px;
+		font-family: $playfair;
+	}
+}
