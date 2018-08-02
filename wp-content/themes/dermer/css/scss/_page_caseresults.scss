@@ -1,0 +1,60 @@
+.case_results_page_wrapper {
+	padding:30px 0 0;
+}
+
+
+.case_results_page_single {
+	margin-bottom:90px;
+	&:last-of-type {
+		margin-bottom:0;
+	}
+	span.amount {
+		color:$bluelight;
+		font-family: $montserrat;
+		display: block;
+		font-weight: 800;
+		font-size:54px;
+		letter-spacing: 0.02em;
+	}
+	span.small_header {
+		text-transform: uppercase;
+		font-family: $montserrat;
+		font-weight: 800;
+		font-size:14px;
+		letter-spacing: 0.2em;
+		color:#2c3350;
+		display: block;
+		margin-top:22px;
+		line-height: 20px;
+		&:after {
+			content:"";
+			width:55px;
+			height:5px;
+			background: $beige;
+			display: block;
+			margin:23px 0;
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	.case_results_page_single {
+		margin-bottom: 50px;
+		span.amount {
+			font-size: 47px;
+		}
+		span.small_header {
+			margin-top: 13px;
+		}
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
