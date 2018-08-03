@@ -16,7 +16,7 @@
 		
 			<div class="contact_left">
 				
-				<h1 class="contact_title">Contact Our Firm</h1>
+				<h1 class="contact_title"><?php the_field( 'contact_header' ); ?></h1>
 				
 			</div><!-- contact_left -->
 			
@@ -29,26 +29,41 @@
 				
 						<div class="contact_flex_left">
 							
-							<span class="small_header">dermer appel ruder LLC</span><!-- large_header -->
+							<span class="small_header"><?php the_field( 'small_header_one' ); ?></span><!-- large_header -->
 							
-							<a class="numbers" href="tel:(404) 892-8884"><span>P</span>(404) 892-8884</a><!-- numbers -->
+							<a class="numbers" href="tel:<?php the_field( 'phone' ); ?>"><span>P</span><?php the_field( 'phone' ); ?></a><!-- numbers -->
 							
-							<span class="numbers"><span>f</span>(404) 892-8884</span><!-- numbers -->
+							<span class="numbers"><span>f</span><?php the_field( 'fax_number' ); ?></span><!-- numbers -->
 							
-							<a class="address" href="">6075 The Corners Parkway, <br class="mobile" /> Suite 210<br/> Peachtree Corners, GA 30092</a>
+							<a class="address" href="<?php the_field( 'google_maps_link' ); ?>" target="_blank"><?php the_field( 'address' ); ?></a>
 							
-							<a class="google_maps" href="" target="_blank">Google Maps</a><!-- google_maps -->
+							<a class="google_maps" href="<?php the_field( 'google_maps_link' ); ?>" target="_blank">Google Maps</a><!-- google_maps -->
 							
 						</div><!-- contact_flex_left -->
 						
 						<div class="contact_flex_right">
 							
-							<span class="small_header right">stay connected</span><!-- large_header -->
+							<span class="small_header right"><?php the_field( 'small_header_two' ); ?></span><!-- large_header -->
 							
 							<ul class="social">
-								<li><a href="">Google +</a></li>
-								<li><a href="">Facebook</a></li>
-								<li><a href="">Linked In</a></li>
+								
+								<?php if(get_field( 'google_plus' )): ?>
+								
+									<li><a href="<?php the_field( 'google_plus' ); ?>" target="_blank">Google +</a></li>
+								
+								<?php endif;?>
+								
+								<?php if(get_field( 'facebook' )): ?>
+								
+									<li><a href="<?php the_field( 'facebook' ); ?>" target="_blank">Facebook</a></li>
+								
+								<?php endif;?>
+								
+								<?php if(get_field( 'linked_in' )): ?>
+								
+									<li><a href="<?php the_field( 'linked_in' ); ?>" target="_blank">Linked In</a></li>
+								
+								<?php endif;?>
 							</ul>
 							
 						</div><!-- contact_flex_right -->
@@ -65,7 +80,8 @@
 	
 	<div class="iframe_wrapper">
 		
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.540832069643!2d-84.24032208478762!3d33.952936080632945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5047762fd5d03%3A0x5f712d602daaa762!2sDermer+Appel+Ruder+Attorneys+At+Law!5e0!3m2!1sen!2sus!4v1533314606923" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		
+		<?php the_field( 'iframe_map' ); ?>
 		
 		
 	</div><!-- iframe_wrapper -->
