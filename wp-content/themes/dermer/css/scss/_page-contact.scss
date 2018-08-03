@@ -12,6 +12,14 @@
 }
 
 
+
+body.page-template-page-contact {
+	.footer_left {
+		display: none;
+	}
+}
+
+
 .contact_left {
 	flex-basis: 550px;
 	flex-shrink: 0;
@@ -31,7 +39,7 @@
 .contact_right {
 	margin:240px 0 0;
 	flex-grow:1;
-	padding-left:12.5%;
+	padding-left: 13%;
 	span.contact_svg {
 		display: block;
 		margin-bottom: 51px;
@@ -113,8 +121,7 @@
 }
 
 .contact_flex_right {
-	// margin-top:80px;
-	padding-right:7%;
+	flex-basis: 254px;
 	span.right {
 		margin-bottom:25px;
 	}
@@ -138,4 +145,170 @@
 		}
 	}
 }
+
+
+.iframe_wrapper {
+	position: relative;
+	height:573px;
+	iframe {
+		width:100% !important;
+		height:100% !important;
+		position: absolute;
+		top:0;
+		left:0;
+	}
+}
+
+
+
+@media screen and (max-width: 1555px) {
+	
+	
+	
+	.contact_right {
+		padding-left:7%;
+	}
+	
+	.contact_flex_right {
+		
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1410px) {
+	
+	
+	
+.contact_left {
+	flex-basis: 503px;
+	h1.contact_title {
+		font-size:110px;
+		line-height: 115px;
+	}
+}
+
+
+.contact_right {
+	padding-left: 4%;
+}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1330px) {
+	
+	
+	
+.contact_left {
+	flex-basis: 429px;
+	h1.contact_title {
+		font-size:90px;
+		line-height: 100px;
+	}
+}
+	
+	.contact_right {
+    flex-basis: 206px;
+    padding-left:35px;
+}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	.contact_wrapper_inner {
+		flex-direction: column;
+	}
+	
+	
+	.contact_left, .contact_right {
+		flex-basis: auto;
+	}
+	
+	.contact_left {
+		h1.contact_title {
+			max-width:430px;
+		}
+	}
+
+	
+	
+	.contact_right {
+		margin: 120px 0 0;
+		padding-left:0;
+		max-width:800px;
+	}
+	
+	.contact_flex_right {
+		flex-basis: 204px;
+	}
+	
+	.iframe_wrapper {
+		height:440px;
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	.contact_wrapper {
+		padding: 0 30px 48px;
+	}
+	
+	.contact_left {
+   	margin: 45px 0 0;
+   	h1.contact_title {
+			font-size: 70px;
+			line-height: 78px;
+			 max-width: 350px;
+		}
+	}
+	
+	.contact_right {
+		margin: 70px 0 0;
+	}
+	
+	.contact_left_col {
+		flex-direction: column;
+	}
+	
+	.contact_flex_right {
+		padding-top:55px;
+	}
+	
+	
+	.iframe_wrapper {
+		height:400px;
+	}
+
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 390px) {
+	
+	
+	.contact_left {
+   	
+   	h1.contact_title {
+			font-size: 58px;
+			line-height: 63px;
+		}
+	}
+	
+} /* Media Query */
 
