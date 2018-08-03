@@ -1,0 +1,141 @@
+.contact_wrapper {
+	width:100%;
+	background: url(#{$themePath}images/pattern-white.jpg) top left repeat;
+	padding:0 75px 175px;
+}
+
+
+.contact_wrapper_inner {
+	display: flex;
+	max-width: 1473px;
+	margin:0 auto;
+}
+
+
+.contact_left {
+	flex-basis: 550px;
+	flex-shrink: 0;
+	margin:115px 0 0;
+	h1.contact_title {
+		color:$beige;
+		font-family: $montserrat;
+		font-weight: 800;
+		text-transform: lowercase;
+		font-size:123px;
+		line-height: 134px;
+	}
+}
+
+
+
+.contact_right {
+	margin:240px 0 0;
+	flex-grow:1;
+	padding-left:12.5%;
+	span.contact_svg {
+		display: block;
+		margin-bottom: 51px;
+		svg {
+			width:135px;
+			height: 50px;
+		}
+	}
+	span.small_header {
+		color:$bluelight;
+		font-family: $montserrat;
+		font-weight: 800;
+		display: block;
+		font-size:24px;
+		margin-bottom:29px;
+	}
+	a {
+		transition: all 200ms ease-in-out;
+		&:hover {
+			color:$bluelight;
+		}
+	}
+}
+
+
+.contact_left_col {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.contact_flex_left {
+	
+	a,span {
+		color:$blue;
+	}
+	.numbers {
+		display: block;
+		text-decoration: none;
+		font-family: $montserrat;
+		font-size:18px;
+		margin-bottom:25px;
+		span {
+			text-transform: uppercase;
+			font-family: $montserrat;
+			font-weight: 800;
+			display: inline-block;
+			padding-right:10px;
+		}
+	}
+	.address {
+		font-family: $montserrat;
+		font-size:18px;
+		line-height: 32px;
+		text-decoration: none;
+		display: block;
+		padding-top:5px;
+		br.mobile {
+			display: none;
+		}
+	}
+	a.google_maps {
+		text-transform: uppercase;
+		color:$bluelight;
+		font-family: $montserrat;
+		font-weight: 800;
+		font-size:14px;
+		letter-spacing: 0.2em;
+		text-decoration: none;
+		margin-top: 25px;
+		display: inline-block;
+		padding-bottom:9px;
+		border-bottom:4px solid $beige;
+		transition: all 200ms ease-in-out;
+		&:hover {
+			color:$beige;
+		}
+	}
+}
+
+.contact_flex_right {
+	// margin-top:80px;
+	padding-right:7%;
+	span.right {
+		margin-bottom:25px;
+	}
+	ul.social {
+		list-style: none;
+		li {
+			text-transform: uppercase;
+			font-family: $montserrat;
+			font-weight: 800;
+			font-size: 12px;
+			letter-spacing: 0.2em;
+			margin-bottom:30px;
+			a {
+				color:$blue;
+				text-decoration: none;
+				transition: all 200ms ease-in-out;
+				&:hover {
+					color:$bluelight;
+				}
+			}
+		}
+	}
+}
+
