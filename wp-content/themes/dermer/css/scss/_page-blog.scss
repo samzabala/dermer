@@ -1,3 +1,56 @@
 .sidebar_blog_wrapper {
-	
+	flex-basis:400px;
+	// background: red;
+	flex-shrink: 0;
+	margin-top:151px;
+}
+
+
+body.blog {
+	.two_col {
+		max-width:1810px;
+	}
+	.inner_content {
+		padding-left:11%;
+	}
+}
+
+
+.sidebar_blog {
+	padding-bottom:40px;
+	h3 {
+		display: none;
+	}
+	span.sidebar_blog_title {
+		text-transform: lowercase;
+		font-family: $montserrat;
+		font-weight: 800;
+		font-size:24px;
+		line-height: 32px;
+		&:after {
+			content:"";
+			width:60px;
+			height:5px;
+			background: $beige;
+			display: block;
+			margin:18px 0 0;
+		}
+	}
+	ul {
+		list-style: none;
+		margin:55px 0 0;
+		li {
+			text-transform: lowercase;
+			font-family: $montserrat;
+			font-weight: 800;
+			margin-bottom:45px;
+			a {
+				text-decoration: none;
+				color:$blue;
+				&:hover {
+					color:$bluelight;
+				}
+			}
+		}
+	}
 }

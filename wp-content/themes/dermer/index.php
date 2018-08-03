@@ -11,8 +11,7 @@
 		
 		<?php get_template_part( 'loop', 'index' );?>
 		
-			
-	</div><!-- inner_content -->
+		</div><!-- inner_content -->
 	
 </div><!-- inner_main -->
 
