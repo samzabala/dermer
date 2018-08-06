@@ -18,26 +18,26 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-	<?php the_content();?>
+
+	<div class="post_feed_wrapper content">
+		
+		<span class="meta_info">Posted In <?php echo get_the_category_list();?> On <span class="date"><?php $pfx_date = get_the_date(); echo $pfx_date ?></span> </span><!-- meta_info -->
+		
+		<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+		
+		<div class="post_content">
 			
-		<?php edit_post_link( __( 'Edit'), '', '' ); ?>
+			<?php echo wp_trim_words( get_the_content(), 40, '...' );?>
+			
+		</div><!-- post_content -->
+		
+		<a class="post_read_more" href="<?php the_permalink();?>">Read More</a><!-- post_read_more -->
+		
+	</div><!-- post_feed_wrapper -->
+	
 			
 		
 <?php endwhile; // end of loop ?>
-
-<?php endif; ?>
-
-
-
-<?php if (  $wp_query->max_num_pages > 1 ) : ?>
-	
-	<div id="nav-below" class="navigation">
-		
-		<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts' ) ); ?></div>
-			
-		<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>') ); ?></div>
-	
-	</div><!-- #nav-below -->
 
 <?php endif; ?>
 

@@ -9,9 +9,16 @@
 body.blog {
 	.two_col {
 		max-width:1810px;
+		padding: 0 150px 120px;
 	}
 	.inner_content {
 		padding-left:11%;
+		margin: 104px 0 0;
+	}
+	.content {
+		h1.page_title {
+			padding-bottom: 37px;
+		}
 	}
 }
 
@@ -47,10 +54,141 @@ body.blog {
 			a {
 				text-decoration: none;
 				color:$blue;
+				transition: all 200ms ease-in-out;
 				&:hover {
 					color:$bluelight;
 				}
 			}
+		}
+	}
+}
+
+
+.post_feed_wrapper {
+	padding-top:13px;
+	margin-bottom:56px;
+	h2 {
+		font-size:24px;
+		line-height: 38px;
+		margin-top:0;
+		padding-top:12px;
+		a {
+			color:#192d50;
+			transition: all 200ms ease-in-out;
+			&:hover {
+				color:$bluelight;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+
+span.meta_info {
+	text-transform: uppercase;
+	font-family: $montserrat;
+	font-weight: 800;
+	font-size:14px;
+	letter-spacing: 0.2em;
+	color:#2c3350;
+	display: inline-block;
+	ul {
+		padding:0;
+		margin:0;
+		display: inline;
+		li {
+			padding:0;
+			display: inline;
+			margin:0;
+			&:before {
+				display: none;
+			}
+			&:after {
+				content:",";
+				display: inline;
+			}
+			&:last-of-type {
+				&:after {
+					display: none;
+				}
+			}
+			a {
+				transition: all 200ms ease-in-out;
+				&:hover {
+					text-decoration: none;
+					color:$beige;
+				}
+			}
+		}
+	}
+	span.date {
+		color:$bluelight;
+	}
+}
+
+.post_content {
+	margin:5px 0 0;
+}
+
+
+a.post_read_more {
+	background: $bluelight;
+	color:#fff;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: $montserrat;
+	font-weight: 800;
+	font-size:17px;
+	letter-spacing: 0.2em;
+	margin:28px 0 0;
+	padding:10px 33px;
+	transition: all 200ms ease-in-out;
+	&:hover {
+		background: $beige;
+		color:#fff;
+		text-decoration: none;
+		
+	}
+}
+
+.paged_wrapper {
+	margin-top:85px;
+	border-top:5px solid $beige;
+	padding-top:20px;
+	ul {
+		padding-left:0;
+		li {
+			padding-left:0;
+			display: inline-block;
+			text-transform: uppercase;
+			font-family: $montserrat;
+			font-weight: 800;
+			color:#2c3350;
+			font-size:14px;
+			letter-spacing: 0.2em;
+			margin:0 6px;
+			&:before {
+				display: none;
+			}
+			a {
+				color:#2c3350;
+				transition: all 200ms ease-in-out;
+				&:hover {
+					color:$bluelight;
+					text-decoration: none;
+				}
+			}
+		}
+		li.active {
+			a {
+				color:$bluelight;
+			}
+		}
+		li.myprev {
+			margin-right:15px;
+		}
+		li.mynext {
+			margin-left:15px;
 		}
 	}
 }

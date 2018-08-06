@@ -11,6 +11,12 @@
 		
 		<?php get_template_part( 'loop', 'index' );?>
 		
+		<div class="paged_wrapper">
+			
+			<?php wpbeginner_numeric_posts_nav(); ?>
+			
+		</div><!-- paged_wrapper -->
+		
 		</div><!-- inner_content -->
 	
 </div><!-- inner_main -->
