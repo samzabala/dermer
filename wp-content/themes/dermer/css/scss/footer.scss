@@ -22,7 +22,7 @@ footer {
 
 
 
-body.page-template-default, body.page-template-page-practiceareas_directory {
+body.page-template-default, body.page-template-page-practiceareas_directory, body.blog, body.archive, body.single {
 	span.footer_title {
 		display: none;
 	}
@@ -441,7 +441,7 @@ footer {
    
    
    
-body.page-template-default,  body.page-template-page-practiceareas_directory {
+body.page-template-default,  body.page-template-page-practiceareas_directory, body.blog, body.archive, body.single {
 	.footer_left {
 		
 	}
