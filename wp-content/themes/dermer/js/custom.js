@@ -275,6 +275,10 @@ $('.sidebar_list ul.menu > li > a').on('click', function(e) {
 	  });
 	});
 	
+
+    
+    
+	
 		
   
 }); // document ready

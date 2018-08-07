@@ -34,6 +34,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Playfair+Display:400,700,700i|Prata');
 </style>
 
+
+
+<style type="text/css">
+	
+	<?php the_field( 'review_css','option'); ?>
+	
+	
+</style>
+
+<?php the_field( 'header_script','option'); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
