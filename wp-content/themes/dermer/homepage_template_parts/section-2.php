@@ -7,91 +7,44 @@
 		<div class="sec_two_slider">
 			
 			
-			
-			
-			<div class="single_slide slide_one">
+			<?php if(get_field('selling_points_slider')): ?>
+			 
+				<?php while(has_sub_field('selling_points_slider')): ?>
+			 
 				
-				<div class="single_slide_inner">
+			    	<div class="single_slide <?php the_sub_field( 'slide_class' ); ?>">
 				
-					<span class="small_header">Over 80 Years of</span><!-- small_header -->
+							<div class="single_slide_inner">
 				
-					<span class="large_header">Experience</span><!-- large_header -->
+								<span class="small_header"><?php the_sub_field( 'small_header' ); ?></span><!-- small_header -->
+				
+								<span class="large_header"><?php the_sub_field( 'large_header' ); ?></span><!-- large_header -->
 					
-						<span class="slide_content">We know how the insurance industry functions and how to maximize results for our injured clients. Should your case be tried by a jury, we are more than confident in the courtroom.</span>
+								<span class="slide_content"><?php the_sub_field( 'selling_point_description' ); ?></span>
 							
 					
-					</div><!-- single_slide_inner -->
+							</div><!-- single_slide_inner -->
 					
-					<div class="slide_svg">
+							<div class="slide_svg">
 						
-						<div class="slide_svg_inner">
+								<div class="slide_svg_inner">
+									
+									<?php $mysvg = get_sub_field( 'svg_file_name' );
 						
-							<?php echo file_get_contents("wp-content/themes/dermer/images/sp-1bg.svg"); ?>
+									 echo file_get_contents('wp-content/themes/dermer/images/' . $mysvg . ''); ?>
 						
-						</div><!-- slide_svg_inner -->
-						
-					
-					</div><!-- slide_svg -->
-				
-			</div><!-- single_slide -->
-			
-			<div class="single_slide slide_two">
-				
-				<div class="single_slide_inner">
-				
-					<span class="small_header">Recovered Millions</span><!-- small_header -->
-				
-					<span class="large_header">Millions</span><!-- large_header -->
-					
-						<span class="slide_content">Since opening our firm we have had a very high level of success in our plaintiff’s cases.</span>
-							
-					</div><!-- single_slide_inner -->
-					
-					<div class="slide_svg">
-						
-						<div class="slide_svg_inner">
-						
-							<?php echo file_get_contents("wp-content/themes/dermer/images/sp-2bg.svg"); ?>
-						
-						</div><!-- slide_svg_inner -->
+								</div><!-- slide_svg_inner -->
 						
 					
-					</div><!-- slide_svg -->
+							</div><!-- slide_svg -->
 				
-			</div><!-- single_slide -->
-			
-			<div class="single_slide slide_three">
-				
-				<div class="single_slide_inner">
-				
-					<span class="small_header">Our Attorneys Are</span><!-- small_header -->
-				
-					<span class="large_header">Attentive</span><!-- large_header -->
-					
-						<span class="slide_content">When you retain our firm you never work with a “case manager”. We know our clients and we respond to their questions and concerns and keep them informed and involved every step of the way.</span>
-							
-					
-					</div><!-- single_slide_inner -->
-					
-					<div class="slide_svg">
-						
-						<div class="slide_svg_inner">
-						
-							<?php echo file_get_contents("wp-content/themes/dermer/images/sp-3bg.svg"); ?>
-						
-						</div><!-- slide_svg_inner -->
-						
-					
-					</div><!-- slide_svg -->
-				
-			</div><!-- single_slide -->
-			
-			
-			
-			
-				
-			
-			
+					</div><!-- single_slide -->
+			    
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+
 			
 		</div><!-- sec_two_slider -->
 		

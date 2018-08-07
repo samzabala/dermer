@@ -29,39 +29,39 @@
 				
 						<div class="contact_flex_left">
 							
-							<span class="small_header"><?php the_field( 'small_header_one' ); ?></span><!-- large_header -->
+							<span class="small_header"><?php the_field( 'footer_lamfirm_name','option'); ?></span><!-- large_header -->
 							
-							<a class="numbers" href="tel:<?php the_field( 'phone' ); ?>"><span>P</span><?php the_field( 'phone' ); ?></a><!-- numbers -->
+							<a class="numbers" href="tel:<?php the_field( 'phone','option'); ?>"><span>P</span><?php the_field( 'phone','option'); ?></a><!-- numbers -->
 							
-							<span class="numbers"><span>f</span><?php the_field( 'fax_number' ); ?></span><!-- numbers -->
+							<span class="numbers"><span>f</span><?php the_field( 'fax','option'); ?></span><!-- numbers -->
 							
-							<a class="address" href="<?php the_field( 'google_maps_link' ); ?>" target="_blank"><?php the_field( 'address' ); ?></a>
+							<a class="address" href="<?php the_field( 'google_maps_link','option'); ?>" target="_blank"><?php the_field( 'address' ); ?></a>
 							
-							<a class="google_maps" href="<?php the_field( 'google_maps_link' ); ?>" target="_blank">Google Maps</a><!-- google_maps -->
+							<a class="google_maps" href="<?php the_field( 'google_maps_link','option'); ?>" target="_blank">Google Maps</a><!-- google_maps -->
 							
 						</div><!-- contact_flex_left -->
 						
 						<div class="contact_flex_right">
 							
-							<span class="small_header right"><?php the_field( 'small_header_two' ); ?></span><!-- large_header -->
+							<span class="small_header right"><?php the_field( 'social_header','option'); ?></span><!-- large_header -->
 							
 							<ul class="social">
 								
-								<?php if(get_field( 'google_plus' )): ?>
+								<?php if(get_field( 'google_plus_url','option')): ?>
 								
-									<li><a href="<?php the_field( 'google_plus' ); ?>" target="_blank">Google +</a></li>
-								
-								<?php endif;?>
-								
-								<?php if(get_field( 'facebook' )): ?>
-								
-									<li><a href="<?php the_field( 'facebook' ); ?>" target="_blank">Facebook</a></li>
+									<li><a href="<?php the_field( 'google_plus_url','option'); ?>" target="_blank">Google +</a></li>
 								
 								<?php endif;?>
 								
-								<?php if(get_field( 'linked_in' )): ?>
+								<?php if(get_field( 'facebook_url','option')): ?>
 								
-									<li><a href="<?php the_field( 'linked_in' ); ?>" target="_blank">Linked In</a></li>
+									<li><a href="<?php the_field( 'facebook_url','option'); ?>" target="_blank">Facebook</a></li>
+								
+								<?php endif;?>
+								
+								<?php if(get_field( 'linkedin_url','option')): ?>
+								
+									<li><a href="<?php the_field( 'linkedin_url','option'); ?>" target="_blank">Linked In</a></li>
 								
 								<?php endif;?>
 							</ul>

@@ -6,45 +6,28 @@
 		
 		<div class="sec_six_slider">
 			
-			<div class="sec_six_single_slide">
-				
-				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_icon_stars.svg"); ?></span><!-- stars_svg -->
-				
-				<span class="sec_six_content">“I did not know where to turn legally, until I met Kim Ruder and Daimon Carter, my earthly angels!  Kim and Daimon told me to heal and leave the legal stuff to them and I did.”</span><!-- sec_six_content -->
-				
-				<span class="sec_six_name">Nicole C.</span><!-- sec_six_name -->
-				
-			</div><!-- sec_six_single_slide -->
 			
-			<div class="sec_six_single_slide">
+			<?php if(get_field('sec_six_testimonials_slider')): ?>
+			 
+				<?php while(has_sub_field('sec_six_testimonials_slider')): ?>
+			 
+					
+					<div class="sec_six_single_slide">
 				
-				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_icon_stars.svg"); ?></span><!-- stars_svg -->
+						<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_icon_stars.svg"); ?></span><!-- stars_svg -->
 				
-				<span class="sec_six_content">“2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.”</span><!-- sec_six_content -->
+						<span class="sec_six_content"><?php the_sub_field( 'testimonial' ); ?></span><!-- sec_six_content -->
 				
-				<span class="sec_six_name">Nicole C.</span><!-- sec_six_name -->
+						<span class="sec_six_name"><?php the_sub_field( 'name' ); ?></span><!-- sec_six_name -->
 				
-			</div><!-- sec_six_single_slide -->
+					</div><!-- sec_six_single_slide -->
+				
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
-			<div class="sec_six_single_slide">
-				
-				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_icon_stars.svg"); ?></span><!-- stars_svg -->
-				
-				<span class="sec_six_content">“3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.”</span><!-- sec_six_content -->
-				
-				<span class="sec_six_name">Nicole C.</span><!-- sec_six_name -->
-				
-			</div><!-- sec_six_single_slide -->
 			
-			<div class="sec_six_single_slide">
-				
-				<span class="stars_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_icon_stars.svg"); ?></span><!-- stars_svg -->
-				
-				<span class="sec_six_content">“4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.”</span><!-- sec_six_content -->
-				
-				<span class="sec_six_name">Nicole C.</span><!-- sec_six_name -->
-				
-			</div><!-- sec_six_single_slide -->
 			
 			
 			<div class="sec_six_buttons">
@@ -57,20 +40,19 @@
 			
 		</div><!-- sec_six_slider -->
 		
-			<a class="testi_button mobile" href="">View All Testimonials</a><!-- testi_button -->
+			<a class="testi_button mobile" href="<?php the_field( 'view_testimonials_link' ); ?>">View All Testimonials</a><!-- testi_button -->
 		
 	</div><!-- sec_six_left -->
 	
 	<div class="sec_six_right">
 		
 		
-		<span class="small_header">we deliver results while</span><!-- small_header -->
+		<span class="small_header"><?php the_field( 'sec_six_small_header' ); ?></span><!-- small_header -->
 		
-		<span class="large_header">building and maintaining 
-relationship</span><!-- large_header -->
+		<span class="large_header"><?php the_field( 'sec_six_large_header' ); ?></span><!-- large_header -->
 
 
-		<a class="testi_button desktop" href="">View All Testimonials</a><!-- testi_button -->
+		<a class="testi_button desktop" href="<?php the_field( 'view_testimonials_link' ); ?>">View All Testimonials</a><!-- testi_button -->
 		
 		
 	</div><!-- sec_six_right -->

@@ -56,7 +56,7 @@
 			
 			<span class="call_us">Call Us Today</span><!-- call_us -->
 			
-			<a class="tel" href="tel:(404) 892-8884">(404) 892-8884</a>
+			<a class="tel" href="tel:<?php the_field( 'phone','option'); ?>"><?php the_field( 'phone','option'); ?></a>
 			
 		</div><!-- header_right -->
 		
@@ -116,9 +116,9 @@
 		
 		<div class="nav_left">
 			
-			<span class="free_case">Free Case Evaluation</span><!-- free_case -->
+			<span class="free_case"><?php the_field( 'free_consultation_form_verbiage','option'); ?></span><!-- free_case -->
 			
-			<span class="free_case_excerpt">We view each case as an opportunity to be your colleague, not just your attorney.</span><!-- free_case_excerpt -->
+			<span class="free_case_excerpt"><?php the_field( 'form_sentence','option'); ?></span><!-- free_case_excerpt -->
 			<span class="required">Fields Required</span><!-- required -->
 			
 			<div class="form">

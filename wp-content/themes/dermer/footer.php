@@ -3,7 +3,7 @@
 	
 	<div class="footer_left">
 		
-		<span class="large_header footer_title">We work for you</span><!-- large_header -->
+		<span class="large_header footer_title"><?php the_field( 'footer_caption','option'); ?></span><!-- large_header -->
 		
 		<span class="footer_design"><?php echo file_get_contents("wp-content/themes/dermer/images/new_sec_eight_bg.svg"); ?></span><!-- footer_design -->
 		
@@ -15,26 +15,45 @@
 			
 					<div class="footer_flex_left">
 						
-						<span class="small_header">dermer appel ruder LLC</span><!-- large_header -->
+						<span class="small_header"><?php the_field( 'footer_lamfirm_name','option'); ?></span><!-- large_header -->
 						
-						<a class="numbers" href="tel:(404) 892-8884"><span>P</span>(404) 892-8884</a><!-- numbers -->
+						<a class="numbers" href="tel:<?php the_field( 'phone','option'); ?>"><span>P</span><?php the_field( 'phone','option'); ?></a><!-- numbers -->
 						
-						<span class="numbers"><span>f</span>(404) 892-8884</span><!-- numbers -->
+						<span class="numbers"><span>f</span><?php the_field( 'fax','option'); ?></span><!-- numbers -->
 						
-						<a class="address" href="">6075 The Corners Parkway, <br class="mobile" /> Suite 210<br/> Peachtree Corners, GA 30092</a>
+						<a class="address" href="<?php the_field( 'google_maps_link','option'); ?>" target="_blank"><?php the_field( 'address','option'); ?></a>
 						
-						<a class="google_maps" href="" target="_blank">Google Maps</a><!-- google_maps -->
+						<a class="google_maps" href="<?php the_field( 'google_maps_link','option'); ?>" target="_blank">Google Maps</a><!-- google_maps -->
 						
 					</div><!-- footer_flex_left -->
 					
 					<div class="footer_flex_right">
 						
-						<span class="small_header right">stay connected</span><!-- large_header -->
+						<span class="small_header right"><?php the_field( 'social_header','option'); ?></span><!-- large_header -->
 						
 						<ul class="social">
-							<li><a href="">Google +</a></li>
-							<li><a href="">Facebook</a></li>
-							<li><a href="">Linked In</a></li>
+							
+							<?php if(get_field( 'google_plus_url','option')): ?>
+							
+								<li><a href="<?php the_field( 'google_plus_url','option'); ?>" target="_blank">Google +</a></li>
+							
+							<?php endif;?>
+							
+							<?php if(get_field( 'facebook_url','option')): ?>
+							
+							
+								<li><a href="<?php the_field( 'facebook_url','option'); ?>" target="_blank">Facebook</a></li>
+							
+							<?php endif;?>
+							
+							<?php if(get_field( 'linkedin_url','option')): ?>
+							
+							
+								<li><a href="<?php the_field( 'linkedin_url','option'); ?>" target="_blank">Linked In</a></li>
+							
+							<?php endif;?>
+							
+							
 						</ul>
 						
 					</div><!-- footer_flex_right -->
@@ -45,14 +64,14 @@
 		
 	</div><!-- footer_left -->
 	
-	<div class="footer_right">
+	<div id="consultation" class="footer_right">
 		
 		
 		<div class="footer_right_inner">
 			
-			<span class="free_case">Free Case Evaluation</span><!-- free_case -->
+			<span class="free_case"><?php the_field( 'free_consultation_form_verbiage','option'); ?></span><!-- free_case -->
 			
-			<span class="free_case_excerpt">We view each case as an opportunity to be your colleague, not just your attorney.</span><!-- free_case_excerpt -->
+			<span class="free_case_excerpt"><?php the_field( 'form_sentence','option'); ?></span><!-- free_case_excerpt -->
 			<span class="required">Fields Required</span><!-- required -->
 			
 			<div class="form">
@@ -72,13 +91,18 @@
 <div class="copyright">
 	
 	<ul>
-		<li>2018 Dermer Appel Ruder LLC</li>
-		<li>All Rights Reserved</li>
-		<li><a href="">Google +</a></li>
+		<li><?php echo date("Y"); ?> <?php the_field( 'copyright','option'); ?></li>
+		<li><?php the_field( 'all_rights_reserved','option'); ?></li>
+		
+		<?php if(get_field( 'google_plus_url','option')): ?>
+							
+			<li><a href="<?php the_field( 'google_plus_url','option'); ?>" target="_blank">Google +</a></li>
+							
+		<?php endif;?>
 	</ul>
 	
 	
-	<a class="ilawyer" href="">
+	<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
 		
 		<?php echo file_get_contents("wp-content/themes/dermer/images/logo-ilawyer-01.svg"); ?>
 		
@@ -88,6 +112,7 @@
 
 <?php wp_footer();?>
 
+<?php the_field( 'footer_scripts','option'); ?>
 
 </body>
 </html>
