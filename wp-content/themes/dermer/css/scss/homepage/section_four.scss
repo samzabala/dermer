@@ -41,13 +41,18 @@
 		font-family: $montserrat;
 		font-weight:800;
 		line-height: 66px;
-		margin:38px 0 0;
 		max-width: 800px;
+		margin: 44px 0 0;
 	}
 }
 
 .sec_four_content {
-	padding: 67px 120px 0 10%;
+	padding: 44px 120px 0 10%;
+}
+
+
+.sec_four_content.content {
+	font-size:16px;
 }
 
 
@@ -124,7 +129,7 @@
 	.sec_four_content {
 		width: 51%;
 		float:left;
-		padding: 94px 0 0;
+		padding: 67px 0 0;
 	}
 	
 	
@@ -224,7 +229,7 @@
   }
   
   .sec_four_content {
-	  padding: 23px 0 0;
+	  padding: 4px 0 0;
   }
   
   

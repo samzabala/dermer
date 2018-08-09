@@ -67,7 +67,7 @@
 		line-height: 129px;
 		font-size:120px;
 		display: block;
-		margin-bottom:65px;
+		margin-bottom: 36px;
 	}
 	.sec_eight_content {
 		padding-left:12.5%;
@@ -84,6 +84,7 @@ span.sec_eight_svg {
 	svg {
 		width:455px;
 		height: 390px;
+		opacity: 0.6;
 	}
 }
 
@@ -125,6 +126,9 @@ span.sec_eight_svg {
 	
 	#section_eight {
 		padding: 0 80px 170px;
+		&:after {
+			width: 972px;
+		}
 	}
 	
 	
@@ -146,7 +150,7 @@ span.sec_eight_svg {
 	  span.large_header {
 		  font-size:92px;
 		  line-height: 100px;
-		  margin-bottom: 60px;
+		  margin-bottom: 39px;
 	  }
   }
   
@@ -156,6 +160,7 @@ span.sec_eight_svg {
 	  top: 766px;
 	  left:-70px;
   }
+
 	
 	
 	
@@ -242,9 +247,11 @@ span.sec_eight_svg {
 		padding-left:0;
 		margin: 85px 0 0;
 		span.large_header {
-			margin-bottom: 48px;
+			margin-bottom: 18px;
 		}
 	}
+	
+	    
 	
 	
 	span.sec_eight_svg {
@@ -276,6 +283,14 @@ span.sec_eight_svg {
 			line-height: 60px;
 		}
 	} 
+	
+	
+	span.section_one_large_header {
+		max-width: 420px;
+	}
+	
+	
+	    
 	
 	
 	

@@ -1,8 +1,8 @@
 #section_seven {
 	background: url(#{$themePath}images/testimonials-bg-1920.jpg) top center;
+	background-size:cover;
 	width:100%;
-	height:1180px;
-	padding:0 60px;
+	padding: 0 60px 181px;
 }
 
 
@@ -157,7 +157,7 @@
 
 
 .sec_seven_single_slide.two {
-	margin-top:-77px;
+	margin-top: -83px;
 	span.svg {
 		svg {
 			width:67px;
