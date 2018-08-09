@@ -83,6 +83,7 @@ span.footer_design {
 		font-weight: 500;
 		font-size:18px;
 		margin-bottom:25px;
+		text-decoration:none;
 		span {
 			text-transform: uppercase;
 			font-family: $montserrat;
@@ -416,6 +417,7 @@ footer {
 	.footer_right {
 		flex-basis: auto;
 		order:1;
+		
 	}
 	
 	
@@ -428,6 +430,11 @@ footer {
    footer {
 	   .form {
 		   ul {
+			   li#field_1_5 {
+				   &:after {
+					   left: 174px;
+				   }
+			   }
 			   li {
 				  &:after {
 					  top: 32px;
@@ -549,6 +556,12 @@ body.page-template-default,  body.page-template-page-practiceareas_directory, bo
 			max-width:600px;
 			ul {
 				display: block;
+				li#field_1_5 {
+					&:after {
+						right: 17px;
+						left:auto;
+					}
+				}
 				li {
 					input {
 						padding: 24px 27px;

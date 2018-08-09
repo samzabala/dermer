@@ -21,7 +21,7 @@ function my_jquery_enqueue() {
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 1, 'all' ); 
+     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 5, 'all' ); 
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
@@ -85,6 +85,7 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 register_nav_menus(array(
     'main_menu' => 'Main Menu',
     'pa_menu' => 'PA Menu',
+    'personal_injury_menu' => 'Personal Injury Menu',
 ));
 
 /* Widgets
