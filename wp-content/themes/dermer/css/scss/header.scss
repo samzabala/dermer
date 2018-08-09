@@ -24,7 +24,7 @@ body:not(.page-template-page-home) {
 	justify-content: center;
 	align-items: center;
 	a {
-		svg {
+		img,svg {
 			height:62px;
 			width: 590px;
 		}
@@ -125,7 +125,7 @@ body:not(.page-template-page-home) {
 	.header_left {
     width: 359px;
     a {
-	    svg {
+	    svg, img {
 		    width:322px;
 	    }
     }
@@ -182,7 +182,7 @@ body:not(.page-template-page-home) {
 	.header_left {
 		width:100%;
 		a {
-			svg {
+			svg, img {
 				width: 352px;
 			}
 		}
@@ -281,7 +281,7 @@ body:not(.page-template-page-home) {
 	.header_left {
 		width:100%;
 		a {
-			svg {
+			svg, img {
 				width: 295px;
 			}
 		}

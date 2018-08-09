@@ -23,7 +23,13 @@
 			<div class="contact_right">
 				
 				
-				<span class="contact_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_footer_logo.svg"); ?></span>
+				<span class="contact_svg">
+				
+					<?php $footer_logo_image = get_field( 'footer_logo_image','option'); ?>
+
+					<img src="<?php echo $footer_logo_image['url']; ?>" alt="<?php echo $footer_logo_image['alt']; ?>" />
+				
+				</span>
 				
 					<div class="contact_left_col">
 				

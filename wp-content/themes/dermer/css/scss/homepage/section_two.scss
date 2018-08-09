@@ -87,10 +87,12 @@
 	span.slide_content {
 		display: flex;
 		font-family: $montserrat;
-		font-weight:400;
+		//font-weight: 400;
+		font-weight: 500;
 		font-size:16px;
 		line-height: 28px;
 		margin:66px 0 0;
+		color:#010423;
 		&:before {
 			content:"";
 			width:53px;

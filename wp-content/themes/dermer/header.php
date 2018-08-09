@@ -30,10 +30,13 @@
 
 <?php wp_head(); ?>
 
+<!--
 <style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Playfair+Display:400,700,700i|Prata');
 </style>
+-->
 
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800|Playfair+Display:400,700,700i|Prata" rel="stylesheet">
 
 
 <style type="text/css">
@@ -56,8 +59,10 @@
 			
 			<a href="<?php bloginfo('url');?>">
 				
-				<?php echo file_get_contents("wp-content/themes/dermer/images/logo-dar.svg"); ?>
-				
+				<?php $header_logo = get_field( 'header_logo','option'); ?>
+	
+				<img src="<?php echo $header_logo['url']; ?>" alt="<?php echo $header_logo['alt']; ?>" />
+
 			</a>
 			
 			

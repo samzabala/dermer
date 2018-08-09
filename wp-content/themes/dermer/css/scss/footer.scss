@@ -49,7 +49,7 @@ span.footer_design {
 	span.footer_svg {
 		display: block;
 		margin-bottom:40px;
-		svg {
+		img, svg {
 			width:135px;
 			height: 50px;
 		}
@@ -79,6 +79,8 @@ span.footer_design {
 		display: block;
 		text-decoration: none;
 		font-family: $montserrat;
+		//font-weight: 400;
+		font-weight: 500;
 		font-size:18px;
 		margin-bottom:25px;
 		span {
@@ -91,6 +93,8 @@ span.footer_design {
 	}
 	.address {
 		font-family: $montserrat;
+		//font-weight: 400;
+		font-weight: 500;
 		font-size:18px;
 		line-height: 32px;
 		text-decoration: none;
