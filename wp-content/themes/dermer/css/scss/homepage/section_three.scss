@@ -48,9 +48,16 @@
 
 .sec_three_content {
 	margin:92px auto 0;
-	max-width:1530px;
+	max-width: 1482px;
 	column-count:2;
 	column-gap:105px;
+}
+
+.sec_three_content.content {
+	font-size:16px;
+	h2.first { // hack job
+		padding-top:0;
+	}
 }
 
 

@@ -72,12 +72,15 @@
 	.sec_eight_content {
 		padding-left:12.5%;
 	}
+	.sec_eight_content.content {
+		font-size: 16px;
+	}
 }
 
 span.sec_eight_svg {
 	position: absolute;
 	top:727px;
-	left:-25px;
+	left: -44px;
 	svg {
 		width:455px;
 		height: 390px;

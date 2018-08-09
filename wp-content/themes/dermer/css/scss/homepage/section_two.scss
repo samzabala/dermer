@@ -43,7 +43,7 @@
 }
 
 .single_slide_inner {
-	max-width:355px;
+	max-width:342px;
 	margin:0 auto;
 	position: relative;
 	z-index:1;
@@ -95,8 +95,8 @@
 		color:#010423;
 		&:before {
 			content:"";
-			width:53px;
-			height:4px;
+			width: 50px;
+			height: 5px;
 			background:$beige;
 			display: block;
 			flex-shrink: 0;
