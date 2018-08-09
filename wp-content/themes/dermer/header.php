@@ -30,16 +30,10 @@
 
 <?php wp_head(); ?>
 
-<!--
-<style>
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Playfair+Display:400,700,700i|Prata');
-</style>
--->
-
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800|Playfair+Display:400,700,700i|Prata" rel="stylesheet">
-
 
 <style type="text/css">
+	
+	@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800|Playfair+Display:400,700,700i|Prata');
 	
 	<?php the_field( 'review_css','option'); ?>
 	
