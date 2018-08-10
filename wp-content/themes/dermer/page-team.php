@@ -50,7 +50,7 @@
 					
 							<span class="att_page_title"><?php the_title();?></span><!-- att_page_title -->
 					
-							<span class="att_page_position">Partner</span><!-- att_page_position -->
+							<span class="att_page_position"><?php the_field( 'attorney_position' ); ?></span><!-- att_page_position -->
 					
 					</a>
 				
