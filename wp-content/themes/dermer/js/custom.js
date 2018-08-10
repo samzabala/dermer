@@ -34,7 +34,7 @@ $('.sec_five_inner_slider').slick({
   arrows:false,
   responsive: [
 	   {
-      breakpoint: 768,
+      breakpoint: 760,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,

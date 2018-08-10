@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "08248D84-A96F-43A3-828D-2599D282337E"
+		"uuidString": "26AAE129-7A88-42BD-9764-B95AF6B41E83"
 		}
 	],
 "creatorBuild": "26680",
@@ -474,7 +474,7 @@
 		},
 	"\/images\/atty-doe.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 40919,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/atty-doe.jpg",
@@ -485,7 +485,7 @@
 		},
 	"\/images\/content-2-img.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 52778,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-2-img.jpg",
@@ -506,7 +506,7 @@
 		},
 	"\/images\/content-3-img.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 76119,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-3-img.jpg",
@@ -527,7 +527,7 @@
 		},
 	"\/images\/hero-1920.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 193236,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-1920.jpg",
@@ -538,7 +538,7 @@
 		},
 	"\/images\/hero-414.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 32333,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-414.jpg",
@@ -549,7 +549,7 @@
 		},
 	"\/images\/hero-768.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 67110,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-768.jpg",
@@ -794,7 +794,7 @@
 		},
 	"\/images\/pa-5.jpg": {
 		"ft": 16384,
-		"iS": 37894,
+		"iS": 36952,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pa-5.jpg",
@@ -805,7 +805,7 @@
 		},
 	"\/images\/pa-6.jpg": {
 		"ft": 16384,
-		"iS": 101867,
+		"iS": 100951,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pa-6.jpg",
@@ -816,7 +816,7 @@
 		},
 	"\/images\/pattern-blue.jpg": {
 		"ft": 16384,
-		"iS": 26569,
+		"iS": 25642,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pattern-blue.jpg",
@@ -827,7 +827,7 @@
 		},
 	"\/images\/pattern-white.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 26004,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pattern-white.jpg",
@@ -838,13 +838,13 @@
 		},
 	"\/images\/placeholder.jpg": {
 		"ft": 16384,
-		"iS": 7103,
+		"iS": 16227,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/placeholder.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/sp-1bg.svg": {
@@ -909,13 +909,13 @@
 		},
 	"\/images\/testimonials-bg-1920.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 164399,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/testimonials-bg-1920.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/index.php": {
@@ -1269,7 +1269,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 555544,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
@@ -1336,10 +1336,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 553448690,
+	"creationDate": 555564209,
 	"displayValue": "dermer",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-archer",
+	"iconImageName": "meme-hart",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
