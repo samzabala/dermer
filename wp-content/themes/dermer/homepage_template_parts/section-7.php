@@ -1,4 +1,4 @@
-<section id="section_seven">
+<section id="section_seven" data-src="<?php bloginfo('template_directory');?>/images//testimonials-bg-1920.jpg">
 	
 	<div class="sec_seven_inner">
 		

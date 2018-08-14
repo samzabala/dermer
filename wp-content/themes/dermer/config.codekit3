@@ -546,8 +546,15 @@
 		"oAP": "\/images\/hero-1920.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
+		},
+	"\/images\/hero-1920.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/hero-1920.webp",
+		"oF": 0
 		},
 	"\/images\/hero-414.jpg": {
 		"ft": 16384,
@@ -557,8 +564,15 @@
 		"oAP": "\/images\/hero-414.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
+		},
+	"\/images\/hero-414.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/hero-414.webp",
+		"oF": 0
 		},
 	"\/images\/hero-768.jpg": {
 		"ft": 16384,
@@ -568,8 +582,15 @@
 		"oAP": "\/images\/hero-768.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
+		},
+	"\/images\/hero-768.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/hero-768.webp",
+		"oF": 0
 		},
 	"\/images\/icon-georgia.svg": {
 		"ft": 2097152,

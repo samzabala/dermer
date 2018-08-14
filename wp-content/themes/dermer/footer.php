@@ -13,7 +13,7 @@
 				
 					<?php $footer_logo_image = get_field( 'footer_logo_image','option'); ?>
 
-					<img src="<?php echo $footer_logo_image['url']; ?>" alt="<?php echo $footer_logo_image['alt']; ?>" />
+					<img data-src="<?php echo $footer_logo_image['url']; ?>" alt="<?php echo $footer_logo_image['alt']; ?>" />
 					
 				</span>
 			

@@ -16,7 +16,7 @@
 			
 			<div class="smaller_screen_layout_change">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/content-2-img.jpg"/>
+				<img data-src="<?php bloginfo('template_directory');?>/images/content-2-img.jpg"/>
 			
 				<span class="sec_four_caption"><?php the_field( 'sec_four_image_caption' ); ?></span><!-- sec_four_caption -->
 				
@@ -26,7 +26,7 @@
 		
 		<div class="sec_four_right">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/content-2-img.jpg"/>
+			<img data-src="<?php bloginfo('template_directory');?>/images/content-2-img.jpg"/>
 			
 			<span class="sec_four_caption"><?php the_field( 'sec_four_image_caption' ); ?></span><!-- sec_four_caption -->
 			

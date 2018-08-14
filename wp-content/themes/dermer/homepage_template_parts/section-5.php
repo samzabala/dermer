@@ -13,7 +13,7 @@
 			
 						<a href="<?php the_sub_field( 'pa_page_link' ); ?>">
 				
-							<div class="sec_five_bg_image <?php the_sub_field( 'pa_slide_class' ); ?>"></div><!-- sec_five_bg_image -->
+							<div data-src="<?php the_sub_field( 'background_images' ); ?>" class="sec_five_bg_image <?php the_sub_field( 'pa_slide_class' ); ?>"></div><!-- sec_five_bg_image -->
 				
 								<div class="sec_five_slide_content">
 					

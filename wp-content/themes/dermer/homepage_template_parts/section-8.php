@@ -6,7 +6,7 @@
 		
 		<div class="sec_eight_left">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/content-3-img.jpg"/>
+			<img data-src="<?php bloginfo('template_directory');?>/images/content-3-img.jpg"/>
 			
 			<span class="sec_eight_caption"><?php the_field( 'sec_eight_image_caption' ); ?></span><!-- sec_eight_caption -->
 			
