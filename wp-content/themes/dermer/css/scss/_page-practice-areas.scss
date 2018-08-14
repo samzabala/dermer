@@ -131,11 +131,13 @@
 	}
 	ul.sub-menu {
 		padding: 3px 0 59px;
+		text-align: left;
 		&:after {
 			flex-basis: 48%;
 		}
 		li {
-			flex-basis:48%;
+			flex-basis:45%;
+			
 			a {
 				
 				&:hover {

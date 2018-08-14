@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "26AAE129-7A88-42BD-9764-B95AF6B41E83"
+		"uuidString": "08248D84-A96F-43A3-828D-2599D282337E"
 		}
 	],
 "creatorBuild": "26680",
@@ -29,6 +29,19 @@
 		"oA": 0,
 		"oAP": "\/category.php",
 		"oF": 0
+		},
+	"\/css\/scss\/_animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_animations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/css\/scss\/_global.scss": {
 		"aP": 0,
@@ -225,7 +238,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/scss\/homepage\/section_eight.scss": {
+	"\/css\/scss\/homepage\/_section_eight.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -233,12 +246,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/section_eight.css",
+		"oAP": "\/css\/scss\/homepage\/_section_eight.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/scss\/homepage\/section_five.scss": {
+	"\/css\/scss\/homepage\/_section_five.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -246,12 +259,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/section_five.css",
+		"oAP": "\/css\/scss\/homepage\/_section_five.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/scss\/homepage\/section_four.scss": {
+	"\/css\/scss\/homepage\/_section_four.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -259,12 +272,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/section_four.css",
+		"oAP": "\/css\/scss\/homepage\/_section_four.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/scss\/homepage\/section_one.scss": {
+	"\/css\/scss\/homepage\/_section_one.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -272,12 +285,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/section_one.css",
+		"oAP": "\/css\/scss\/homepage\/_section_one.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/scss\/homepage\/section_seven.scss": {
+	"\/css\/scss\/homepage\/_section_seven.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -285,12 +298,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/section_seven.css",
+		"oAP": "\/css\/scss\/homepage\/_section_seven.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/scss\/homepage\/section_six.scss": {
+	"\/css\/scss\/homepage\/_section_six.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -298,12 +311,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/section_six.css",
+		"oAP": "\/css\/scss\/homepage\/_section_six.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/scss\/homepage\/section_three.scss": {
+	"\/css\/scss\/homepage\/_section_three.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -311,12 +324,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/section_three.css",
+		"oAP": "\/css\/scss\/homepage\/_section_three.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/scss\/homepage\/section_two.scss": {
+	"\/css\/scss\/homepage\/_section_two.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -324,7 +337,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/section_two.css",
+		"oAP": "\/css\/scss\/homepage\/_section_two.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -474,7 +487,7 @@
 		},
 	"\/images\/atty-doe.jpg": {
 		"ft": 16384,
-		"iS": 40919,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/atty-doe.jpg",
@@ -485,7 +498,7 @@
 		},
 	"\/images\/content-2-img.jpg": {
 		"ft": 16384,
-		"iS": 52778,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-2-img.jpg",
@@ -506,7 +519,7 @@
 		},
 	"\/images\/content-3-img.jpg": {
 		"ft": 16384,
-		"iS": 76119,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-3-img.jpg",
@@ -527,7 +540,7 @@
 		},
 	"\/images\/hero-1920.jpg": {
 		"ft": 16384,
-		"iS": 193236,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-1920.jpg",
@@ -538,7 +551,7 @@
 		},
 	"\/images\/hero-414.jpg": {
 		"ft": 16384,
-		"iS": 32333,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-414.jpg",
@@ -549,7 +562,7 @@
 		},
 	"\/images\/hero-768.jpg": {
 		"ft": 16384,
-		"iS": 67110,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-768.jpg",
@@ -794,7 +807,7 @@
 		},
 	"\/images\/pa-5.jpg": {
 		"ft": 16384,
-		"iS": 36952,
+		"iS": 37894,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pa-5.jpg",
@@ -805,7 +818,7 @@
 		},
 	"\/images\/pa-6.jpg": {
 		"ft": 16384,
-		"iS": 100951,
+		"iS": 101867,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pa-6.jpg",
@@ -816,7 +829,7 @@
 		},
 	"\/images\/pattern-blue.jpg": {
 		"ft": 16384,
-		"iS": 25642,
+		"iS": 26569,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pattern-blue.jpg",
@@ -827,7 +840,7 @@
 		},
 	"\/images\/pattern-white.jpg": {
 		"ft": 16384,
-		"iS": 26004,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pattern-white.jpg",
@@ -838,13 +851,13 @@
 		},
 	"\/images\/placeholder.jpg": {
 		"ft": 16384,
-		"iS": 16227,
+		"iS": 7103,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/placeholder.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/sp-1bg.svg": {
@@ -909,13 +922,13 @@
 		},
 	"\/images\/testimonials-bg-1920.jpg": {
 		"ft": 16384,
-		"iS": 164399,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/testimonials-bg-1920.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.php": {
@@ -1183,6 +1196,543 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/js\/waypoints\/.eslintrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/.eslintrc",
+		"oF": 0
+		},
+	"\/js\/waypoints\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/.gitignore",
+		"oF": 0
+		},
+	"\/js\/waypoints\/.travis.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/.travis.yml",
+		"oF": 0
+		},
+	"\/js\/waypoints\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/waypoints\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/waypoints\/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/CHANGELOG.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/waypoints\/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/waypoints\/gulpfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/jquery.waypoints.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/jquery.waypoints-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/jquery.waypoints.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/jquery.waypoints.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/noframework.waypoints.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/noframework.waypoints-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/noframework.waypoints.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/noframework.waypoints.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/infinite.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/infinite-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/infinite.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/infinite.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/inview.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/inview-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/inview.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/inview.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/sticky.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/sticky-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/sticky.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/sticky.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/waypoints.debug.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/waypoints.debug-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/zepto.waypoints.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/zepto.waypoints-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/zepto.waypoints.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/zepto.waypoints.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/licenses.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/licenses.txt",
+		"oF": 0
+		},
+	"\/js\/waypoints\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/waypoints\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/waypoints\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/waypoints\/src\/adapters\/jquery-zepto-fn-extension.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/adapters\/jquery-zepto-fn-extension-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/adapters\/jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/adapters\/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/adapters\/noframework.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/adapters\/noframework-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/adapters\/zepto.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/adapters\/zepto-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/context.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/context-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/debug.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/debug-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/group.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/group-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/shortcuts\/infinite.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/shortcuts\/infinite-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/shortcuts\/inview.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/shortcuts\/inview-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/shortcuts\/sticky.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/shortcuts\/sticky-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/waypoint.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/waypoint-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/adapter-fn-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/adapter-fn-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/context-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/context-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/debug-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/debug-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/fixtures\/infinite.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/fixtures\/infinite.html",
+		"oF": 0
+		},
+	"\/js\/waypoints\/test\/fixtures\/standard.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/fixtures\/standard.html",
+		"oF": 0
+		},
+	"\/js\/waypoints\/test\/fixtures\/sticky.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/fixtures\/sticky.html",
+		"oF": 0
+		},
+	"\/js\/waypoints\/test\/group-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/group-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/infinite-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/infinite-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/inview-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/inview-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/coffee-script.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/coffee-script-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/jasmine-html.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/jasmine-html-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/jasmine-jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/jasmine-jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/jasmine.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/jasmine-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/waypoints\/test\/lib\/jasmine.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/jasmine-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/require.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/require-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/testloader.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/testloader-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/settings.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/settings-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/sticky-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/sticky-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/waypoint-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/waypoint-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/testem.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/waypoints\/testem-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/loop-page.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1269,7 +1819,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 555544,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
@@ -1336,10 +1886,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 555564209,
+	"creationDate": 553448690,
 	"displayValue": "dermer",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-hart",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-archer",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

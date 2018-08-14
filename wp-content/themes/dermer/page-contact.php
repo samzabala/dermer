@@ -14,9 +14,11 @@
 		<div class="contact_wrapper_inner">
 		
 		
-			<div class="contact_left">
+			<div id="contact_trigger" class="contact_left">
 				
 				<h1 class="contact_title"><?php the_field( 'contact_header' ); ?></h1>
+				
+				<span class="contact_design"><?php echo file_get_contents("wp-content/themes/dermer/images/new_sec_eight_bg.svg"); ?></span><!-- footer_design -->
 				
 			</div><!-- contact_left -->
 			

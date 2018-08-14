@@ -294,11 +294,12 @@
 	.sidebar_wrapper {
 		flex-basis: auto;
 		order:2;
-		margin-top: 105px;
+		margin-top: 91px;
 	}
 	
 	.sidebar_form {
 		padding: 79px 45px 118px;
+		display: none;
 		.gform_wrapper {
 			max-width:600px;
 			margin-left:auto;
@@ -308,7 +309,7 @@
 	
 	
 	.sidebar_list {
-		padding: 77px 0 0;
+		padding: 0;;
 		margin-left:auto;
 		margin-right:auto;
 		width: 400px;
@@ -331,6 +332,10 @@
 
 @media screen and (max-width: 767px) {
 	
+	
+
+
+	
 	.inner_main {
     margin: 115px auto 0;
 	}
@@ -342,11 +347,11 @@
 
 
 .sidebar_wrapper {
-	margin-top:80px;
+	margin-top: 65px;
 }
 
 .sidebar_form {
-  padding: 71px 30px 80px;
+  padding: 0px 30px 80px;
   ul {
 	  li {
 		  &:after {
@@ -362,14 +367,14 @@
 
 
 .sidebar_list {
-  padding: 63px 0 0;
+  padding: 0px 0 0;
   width: 100%;
   max-width: 299px;
 }
 
 
 .two_col {
-	padding: 0 0px 41px;
+	padding: 0 0px 58px;
 }
 
 

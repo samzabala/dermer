@@ -72,8 +72,34 @@ a.button {
 
 .arrow {
 	width:60px;
-	margin:148px 0 0;
+	margin:118px 0 0;
+	
+	animation-iteration-count: infinite;
+	animation-name: arrow_move;
+  animation-duration: 2000ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
 }
+
+
+
+
+
+@keyframes arrow_move {
+  0% {
+   transform: translateY(-7px);
+ 	}
+	50% {
+  	transform: translateY(7px);  
+  }
+  100% {
+	  transform: translateY(-7px); 
+  }
+}
+
+
+
+
 
 
 @media screen and (max-width: 1450px) {

@@ -24,6 +24,7 @@ body.page-template-page-contact {
 	flex-basis: 550px;
 	flex-shrink: 0;
 	margin:115px 0 0;
+	position: relative;
 	h1.contact_title {
 		color:$beige;
 		font-family: $montserrat;
@@ -31,6 +32,18 @@ body.page-template-page-contact {
 		text-transform: lowercase;
 		font-size:123px;
 		line-height: 134px;
+		position: relative;
+		z-index:1;
+	}
+	span.contact_design {
+		top:85px;
+		left:-260px;
+		position: absolute;
+		svg {
+			width:470px;
+			height: 390px;
+			opacity: 0.6;
+		}
 	}
 }
 
@@ -40,6 +53,8 @@ body.page-template-page-contact {
 	margin:240px 0 0;
 	flex-grow:1;
 	padding-left: 13%;
+	position: relative;
+	z-index:1;
 	span.contact_svg {
 		display: block;
 		margin-bottom: 51px;

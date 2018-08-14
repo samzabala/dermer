@@ -12,7 +12,7 @@ body.blog, body.archive, body.single {
 	}
 	.inner_content {
 		padding-left:11%;
-		margin: 104px 0 0;
+		margin: 104px 0 33px;
 	}
 	.content {
 		h1.page_title {
@@ -211,6 +211,7 @@ a.post_read_more {
 	padding-top:20px;
 	ul {
 		padding-left:0;
+		margin-bottom:0;
 		li {
 			padding-left:0;
 			display: inline-block;
@@ -261,7 +262,7 @@ body.blog, body.archive, body.single {
 		
 	}
 	.inner_content {
-
+	
 	}
 	.content {
 		h1.page_title {
@@ -283,13 +284,12 @@ body.blog, body.archive, body.single {
 	order:2;
 	padding-left:75px;
 	padding-right:75px;
-	margin-top: 12px;
+	margin-top: 55px;
 }
 
 body.blog, body.archive, body.single {
 	.two_col {
-		padding-left:0;
-		padding-right:0;
+		padding:0 0 90px;
 	}
 	.inner_content {
 		padding-left:0;
@@ -328,6 +328,10 @@ a.view_all_sidebar {
 
 .post_feed_wrapper {
    margin-bottom: 42px;
+}
+
+.paged_wrapper {
+	
 }
 	
 	

@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer_trigger">
 	
 	
 	<div class="footer_left">
