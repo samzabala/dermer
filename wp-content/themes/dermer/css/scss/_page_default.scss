@@ -166,6 +166,11 @@
 		}
 	}
 	ul.menu {
+		>li.current-menu-ancestor {
+			> a {
+					color:$bluelight;
+			}
+		}
 		> li {
 				font-family: $montserrat;
 				font-weight: 800;
@@ -199,6 +204,7 @@
 	ul.sub-menu.close {
 		height:0 !important;
 		overflow: hidden;
+		
 	}
 	ul.sub-menu.open {
 		overflow: visible;
@@ -211,6 +217,11 @@
 		transition: all 400ms ease-in-out;
 		height: 0;
 		opacity: 0;
+		li.current-menu-item {
+			a {
+				color:$bluelight;
+			}
+		}
 		li {
 			text-transform: uppercase;
 			font-size:14px;
