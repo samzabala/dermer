@@ -84,11 +84,13 @@
 		
 		<div class="mobile_left">
 			
-			<a href="tel:(404) 892-8884">
+			<a href="tel:<?php the_field( 'phone','option'); ?>">
 			
-				<span class="phone_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_phone.svg"); ?></span>
+<!-- 				<span class="phone_svg"><?php echo file_get_contents("wp-content/themes/dermer/images/new_phone.svg"); ?></span> -->
 				
-				<span class="call_us">Call Us</span><!-- call_us -->
+				<span class="call_us"><?php the_field( 'phone','option'); ?></span><!-- call_us -->
+				
+				<span class="serving">Serving Metro Atlanta</span><!-- serving -->
 			
 			</a>
 			

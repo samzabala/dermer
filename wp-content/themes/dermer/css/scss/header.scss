@@ -231,7 +231,7 @@ body:not(.page-template-page-home) {
 	
 	#sticky_header {
 		display: flex;
-		height: 50px;
+		height: 60px;
 		width:100%;
 		z-index:25;
 }
@@ -244,6 +244,7 @@ body:not(.page-template-page-home) {
 		a {
 			display: flex;
 			justify-content: center;
+			flex-direction: column;
 			height:100%;
 			align-items: center;
 			color:#fff;
@@ -256,12 +257,25 @@ body:not(.page-template-page-home) {
 			span {
 				display: block;
 			}
+			span.call_us {
+				font-size: 17px;
+			}
+			span.serving {
+				font-family: $playfair;
+				font-style: italic;
+				text-transform: lowercase;
+				display: block;
+				margin-top:3px;
+				font-size: 15px;
+				letter-spacing: 0.07em;
+			}
 		}
 		
 	}
 	
 	.mobile_left {
 		background: $blue;
+		flex-grow: 1;
 		a {
 			svg {
 				width:28px;
@@ -277,16 +291,22 @@ body:not(.page-template-page-home) {
 		justify-content: center;
 		align-items: center;
 		cursor: pointer;
+		flex-direction: column;
+		width:80px;
 		span.mobile_menu_title {
 			color:#fff;
 			text-transform: uppercase;
 			text-decoration: none;
 			font-family: $montserrat;
 			font-weight: 800;
-			font-size:14px;
+			font-size:12px;
 			letter-spacing: 0.1em;
 			text-transform: uppercase;
-			margin-right:15px;
+			margin-right:0px;
+			order:2;
+			display: block;
+			margin-top:5px;
+			//font-weight: 700;
 		}
 	}
 	
@@ -294,10 +314,10 @@ body:not(.page-template-page-home) {
 	.mobile_menu_bars_wrapper {
 		span.mobile_menu_bar {
 			display: block;
-			width:38px;
+			width: 42px;
 			height:3px;
 			background:#fff;
-			margin-bottom:7px;
+			margin-bottom:5px;
 			&:last-of-type {
 				margin-bottom:0;
 			}
