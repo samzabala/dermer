@@ -49,6 +49,8 @@ body:not(.page-template-page-home) {
 		text-transform: lowercase;
 		font-size:20px;
 		margin-bottom:8px;
+		order:2;
+		margin-top:9px;
 	}
 	a.tel {
 		font-size:33px;
@@ -138,7 +140,8 @@ body:not(.page-template-page-home) {
 		
 	}
 	span.call_us {
-		display: none;
+		// display: none;
+		
 	}
 	a.tel {
 		font-size:30px;
@@ -165,6 +168,40 @@ body:not(.page-template-page-home) {
 		font-size:13px;
 	}
 }
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 828px) {
+	
+
+.header_left {
+	width: 273px;
+	margin-left: 22px;
+	a {
+		img {
+			width: 273px;
+		}
+	}
+}
+
+
+.header_right {
+	
+	span, a {
+		
+	}
+	span.call_us {
+		//display: none;
+		font-size: 18px;
+	}
+	a.tel {
+		font-size: 26px;
+	}
+}
+
 	
 	
 	
@@ -267,6 +304,10 @@ body:not(.page-template-page-home) {
 		}
 	}
 	
+	
+	.header_left {
+		margin-left: 0;
+	}
 	
 	
 	

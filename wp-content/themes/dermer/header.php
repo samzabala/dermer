@@ -64,7 +64,7 @@
 		
 		<div class="header_right">
 			
-			<span class="call_us">Call Us Today</span><!-- call_us -->
+			<span class="call_us">Serving Metro Atlanta. Call Us Today</span><!-- call_us -->
 			
 			<a class="tel" href="tel:<?php the_field( 'phone','option'); ?>"><?php the_field( 'phone','option'); ?></a>
 			
