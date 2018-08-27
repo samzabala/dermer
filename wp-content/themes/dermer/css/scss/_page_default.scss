@@ -171,6 +171,18 @@
 					color:$bluelight;
 			}
 		}
+		>li.menu-item-has-children {
+			&:after {
+					content:"";
+					background: url(#{$themePath}images/nav_arrow.svg) top left no-repeat;
+					width:13px;
+					height:13px;
+					display: block;
+					position: absolute;
+					top: 11px;
+					right:-24px;
+				}
+		}
 		> li {
 				font-family: $montserrat;
 				font-weight: 800;
@@ -179,19 +191,11 @@
 				text-transform: lowercase;
 				padding-bottom:30px;
 				position: relative;
-				&:after {
-					content:"";
-					background: url(#{$themePath}images/nav_arrow.svg) top left no-repeat;
-					width:13px;
-					height:13px;
-					display: block;
-					position: absolute;
-					top:12px;
-					right:-24px;
-				}
+				
 				> a {
 						cursor: pointer;
 						transition: all 200ms ease-in-out;
+						color:$blue;
 						&:hover {
 							color:$bluelight;
 						}
