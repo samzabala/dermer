@@ -485,6 +485,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/att_kim_ruder.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/att_kim_ruder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/att_taryn_haumann.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/att_taryn_haumann.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/atty-doe.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -496,9 +518,53 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/content-2-img.jpg": {
+	"\/images\/atty_adam_appel.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/atty_adam_appel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/atty_daimon_carter.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/atty_daimon_carter.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/atty_matt_ericksen.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/atty_matt_ericksen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/atty_stephen_dermer.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/atty_stephen_dermer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/content-2-img.jpg": {
+		"ft": 16384,
+		"iS": 372264,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-2-img.jpg",
@@ -519,7 +585,7 @@
 		},
 	"\/images\/content-3-img.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 380172,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-3-img.jpg",
@@ -540,13 +606,13 @@
 		},
 	"\/images\/hero-1920.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 213548,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-1920.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-1920.webp": {
@@ -558,13 +624,13 @@
 		},
 	"\/images\/hero-414.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 152127,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-414.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-414.webp": {
@@ -576,13 +642,13 @@
 		},
 	"\/images\/hero-768.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 433432,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-768.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-768.webp": {
@@ -943,13 +1009,13 @@
 		},
 	"\/images\/testimonials-bg-1920.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 577071,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/testimonials-bg-1920.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/index.php": {

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<div class="inner_main two_col">
+<div id="internal_trigger" class="inner_main two_col">
 	
 	<?php get_sidebar(); ?>
 	

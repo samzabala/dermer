@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	
-<div class="inner_main">
+<div id="internal_trigger" class="inner_main">
 	 
 	 <div class="not_found_wrapper">
 	 

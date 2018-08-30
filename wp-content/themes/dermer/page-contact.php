@@ -6,7 +6,7 @@
 	get_header(); ?>
 
 
-<div class="inner_main">
+<div id="internal_trigger" class="inner_main">
 	
 	<div class="contact_wrapper">
 		

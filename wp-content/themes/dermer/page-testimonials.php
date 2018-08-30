@@ -5,7 +5,7 @@
  get_header(); ?>
 
 
-<div class="inner_main pattern">
+<div id="internal_trigger" class="inner_main pattern">
 	
 		<h1 class="centered"><?php the_title();?></h1><!-- page_title -->
 		

@@ -70,7 +70,7 @@ img.aligncenter {
 		line-height: 21px;
 		color:#2c3350;
 	}
-	p, ul {
+	p, ul, ol {
 		margin-bottom: 33px;
 	}
 	a {
@@ -78,7 +78,7 @@ img.aligncenter {
 		transition: all 200ms ease-in-out;
 		text-decoration: none;
 		&:hover {
-			text-decoration: underline;
+			color:$beige;
 		}
 	}
 	blockquote {
@@ -145,6 +145,14 @@ img.aligncenter {
 		}
 	}
 }
+
+
+
+
+			li.gform_hidden {
+				display: none;
+			}
+
 
 
 @media screen and (max-width: 1135px) {

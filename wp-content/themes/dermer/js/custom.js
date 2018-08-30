@@ -60,8 +60,8 @@ jQuery(document).ready(function($){
 function loadImages() {
       // images
       $('img').each(function () {
-        if (jQuery(this).attr('data-src')) {
-          var img = jQuery(this).data('src');
+        if ($(this).attr('data-src')) {
+          var img = $(this).data('src');
           $(this).attr('src', img);
         }
       });
@@ -79,6 +79,8 @@ function loadImages() {
 
    
 createWaypoint('section_two', null, null, 0, loadImages, false)
+
+createWaypoint('internal_trigger', null, null, 500, loadImages, false)
 
 	
 	

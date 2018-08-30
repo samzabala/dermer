@@ -27,9 +27,9 @@
 						
 						<span class="numbers"><span>f</span><?php the_field( 'fax','option'); ?></span><!-- numbers -->
 						
-						<a class="address" href="<?php the_field( 'google_maps_link','option'); ?>" target="_blank"><?php the_field( 'address','option'); ?></a>
+						<a class="address" rel="noopener" href="<?php the_field( 'google_maps_link','option'); ?>" target="_blank"><?php the_field( 'address','option'); ?></a>
 						
-						<a class="google_maps" href="<?php the_field( 'google_maps_link','option'); ?>" target="_blank">Google Maps</a><!-- google_maps -->
+						<a class="google_maps" rel="noopener" href="<?php the_field( 'google_maps_link','option'); ?>" target="_blank">Google Maps</a><!-- google_maps -->
 						
 					</div><!-- footer_flex_left -->
 					
@@ -41,21 +41,21 @@
 							
 							<?php if(get_field( 'google_plus_url','option')): ?>
 							
-								<li><a href="<?php the_field( 'google_plus_url','option'); ?>" target="_blank">Google +</a></li>
+								<li><a rel="noopener" href="<?php the_field( 'google_plus_url','option'); ?>" target="_blank">Google +</a></li>
 							
 							<?php endif;?>
 							
 							<?php if(get_field( 'facebook_url','option')): ?>
 							
 							
-								<li><a href="<?php the_field( 'facebook_url','option'); ?>" target="_blank">Facebook</a></li>
+								<li><a rel="noopener" href="<?php the_field( 'facebook_url','option'); ?>" target="_blank">Facebook</a></li>
 							
 							<?php endif;?>
 							
 							<?php if(get_field( 'linkedin_url','option')): ?>
 							
 							
-								<li><a href="<?php the_field( 'linkedin_url','option'); ?>" target="_blank">Linked In</a></li>
+								<li><a rel="noopener" href="<?php the_field( 'linkedin_url','option'); ?>" target="_blank">Linked In</a></li>
 							
 							<?php endif;?>
 							
@@ -108,7 +108,7 @@
 	</ul>
 	
 	
-	<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
+	<a class="ilawyer" rel="noopener" href="//ilawyermarketing.com" target="_blank">
 		
 		<?php echo file_get_contents("wp-content/themes/dermer/images/logo-ilawyer-01.svg"); ?>
 		

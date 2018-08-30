@@ -61,6 +61,20 @@
 	h2 {
 		padding-top: 10px;
 	}
+	div {
+		color:$bluelight;
+		font-family: $montserrat;
+		font-weight: 800;
+		text-transform: uppercase;
+		font-size:15px;
+		letter-spacing: 0.2em;
+		display: block;
+	}
+	h2, p, span {
+		//width:100%;
+		//display: inline-block;
+		
+	}
 }
 
 

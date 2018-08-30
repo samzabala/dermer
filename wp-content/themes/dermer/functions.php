@@ -268,6 +268,8 @@ function wpbeginner_numeric_posts_nav() {
 
 
 
+
+
 add_action( 'wp_head', 'internal_css_print' );
 function internal_css_print() {
    echo '<style>';
@@ -276,6 +278,8 @@ function internal_css_print() {
   
    echo '</style>';
 }
+
+
 
 
 

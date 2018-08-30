@@ -5,7 +5,7 @@
 	get_header(); ?>
 	
 	
-	<div class="top_container content">
+	<div id="internal_trigger" class="top_container content">
 		
 		<div class="inner_top_container">
 		
@@ -25,6 +25,15 @@
 						<img src="<?php bloginfo('template_url');?>/images/placeholder.jpg" alt="placeholder" />
 					
 					<?php endif; ?>
+					
+					
+					<?php if(get_field('avvo_code')):?>
+					
+						
+						<?php the_field( 'avvo_code' ); ?>
+					
+					
+					<?php endif;?>
 					
 				</div><!-- image_inner_wrapper -->
 				
