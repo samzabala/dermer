@@ -54,6 +54,15 @@
 
 .sec_four_content.content {
 	font-size:16px;
+	span.sec_four_title {
+		color:$bluelight;
+		font-size: 24px;
+		line-height: 38px;
+		font-family: $montserrat;
+		font-weight:700;
+		padding-bottom:9px;
+		padding-top:25px;
+	}
 }
 
 
@@ -96,6 +105,12 @@
 
 
 
+
+
+
+
+
+
 @media screen and (max-width: 1450px) {
 	
 	#section_four {
@@ -134,6 +149,7 @@
 		padding: 67px 0 0;
 	}
 	
+		
 	
 	.smaller_screen_layout_change {
 		width:49%;
