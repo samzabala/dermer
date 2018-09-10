@@ -20,7 +20,7 @@ function my_jquery_enqueue() {
 
 
  function load_my_styles_scripts() {
-     // Load my stylesheet
+    //  Load my stylesheet
     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 5, 'all' ); 
 
      // Load my javascripts
@@ -269,17 +269,15 @@ function wpbeginner_numeric_posts_nav() {
 
 
 
-/*
 
-add_action( 'wp_head', 'internal_css_print' );
-function internal_css_print() {
-   echo '<style>';
+// add_action( 'wp_head', 'internal_css_print' );
+// function internal_css_print() {
+//    echo '<style>';
    
-   include_once get_template_directory() . '/style.css';
+//    include_once get_template_directory() . '/style.css';
   
-   echo '</style>';
-}
-*/
+//    echo '</style>';
+// }
 
 
 

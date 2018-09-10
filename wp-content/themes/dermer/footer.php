@@ -21,7 +21,6 @@
 			
 					<div class="footer_flex_left">
 						
-						<span class="small_header"><?php the_field( 'footer_lamfirm_name','option'); ?></span><!-- large_header -->
 						
 						<a class="numbers" href="tel:<?php the_field( 'phone','option'); ?>"><span>P</span><?php the_field( 'phone','option'); ?></a><!-- numbers -->
 						

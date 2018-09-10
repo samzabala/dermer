@@ -3,7 +3,7 @@
 	background-size:cover;
 	width:100%;
 	height:990px;
-	margin:129px 0 0;
+	margin:79px 0 0;
 }
 
 html.webp {
@@ -34,12 +34,13 @@ span.section_one_title {
 	text-transform: uppercase;
 	font-size:18px;
 	font-family: $montserrat;
-	font-weight: 500;
+	font-weight: 800;
 	letter-spacing: 0.2em;
 	display: inline-block;
-	span {
-		font-weight: 800;
-	}
+
+	// span {
+	// 	font-weight: 800;
+	// }
 	&:before {
 		content:"";
 		width:54px;
@@ -125,12 +126,13 @@ a.button {
 	
 	#section_one {
 		background-position: top center;
-		height:850px;
+		margin: 80px 0 0;
+		height:730px;
 	}
 	
 	
 	.section_one_inner {
-		padding: 192px 125px 0;
+		padding: 144px 125px 0;
 	}
 	
 	
@@ -177,13 +179,6 @@ html.no-webp {
 
 @media screen and (max-width: 1250px) {
 	
-	
-#section_one {
-  margin: 100px 0 0;
-  height:783px;
-  
-}
-
 
 html.webp {
 	#section_one {
@@ -198,37 +193,10 @@ html.no-webp {
 }
 
 
-.section_one_inner {
-  padding: 274px 72px 0;
-  
-}
-
-span.section_one_title {
-	&:before {
-		display: none;
-	}
-	&:after {
-		content:"";
-		width:54px;
-		height:5px;
-		background: $beige;
-		display: block;
-		vertical-align: top;
-		margin-top:26px;
-		margin-right:27px;
-	}
-}
-
-
 span.section_one_large_header {
 	font-size:70px;
 	line-height: 81px;
 	max-width: 610px;
-}
-
-
-.arrow {
-	display: none;
 }
 
 a.button {
@@ -250,6 +218,27 @@ a.button {
 	
 	#section_one {
 // 		background: url(#{$themePath}images/hero-768.jpg) top center no-repeat;
+	}
+
+	.arrow {
+		display: none;
+	}
+	
+
+	span.section_one_title {
+		&:before {
+			display: none;
+		}   
+		&:after {
+			content:"";
+			width:54px;
+			height:5px;
+			background: $beige;
+			display: block;
+			vertical-align: top;
+			margin-top:26px;
+			margin-right:27px;
+		}
 	}
 	
 		

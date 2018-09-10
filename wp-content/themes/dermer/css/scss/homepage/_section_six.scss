@@ -6,6 +6,7 @@
 
 .sec_six_inner {
 	display: flex;
+	justify-content:space-between;
 	max-width:1685px;
 	margin:0 auto;
 }
@@ -203,8 +204,8 @@ a.testi_button.mobile {
 	}
 	
 	.sec_six_left {
-    margin: 329px 0 0;
-    width:56%;
+    margin: 124px 0 0;
+    width: 48%;
 	}
 	
 	
@@ -218,6 +219,8 @@ a.testi_button.mobile {
 		padding: 79px 78px;
 		span.sec_six_content {
 			margin: 20px 0 0;
+			font-size:28px;
+			line-height:50px;
 		}
 		span.sec_six_name {
 			margin: 53px 0 0;
@@ -229,6 +232,7 @@ a.testi_button.mobile {
 	.sec_six_right {
 		padding-left: 52px;
 		padding-top: 139px;
+		width:45%;
 		span.large_header {
 			font-size:70px;
 			line-height: 86px;
@@ -305,7 +309,7 @@ a.testi_button.mobile {
 	
 	
 	.sec_six_single_slide {
-		padding: 79px 70px 0;
+		padding: 75px;
 		span.sec_six_content {
 			font-size:28px;
 			line-height: 50px;

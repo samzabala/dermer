@@ -77,8 +77,7 @@
 		float:right;
 	}
 	span.sec_four_caption {
-		margin:54px 0 0;
-		max-width:255px;
+		margin:42px 0 0;
 		display: block;
 		float:right;
 		font-family: $montserrat;
@@ -94,7 +93,7 @@
 			width:100%;
 			height:5px;
 			background:$beige;
-			margin:0 0 21px;
+			margin:0 0 25px;
 		}
 	}
 }
@@ -119,15 +118,16 @@
 	}
 	
 	.sec_four_inner {
-		padding: 0 138px 190px 138px;
+		padding: 0 138px 120px 138px;
 	}
 	
 	.sec_four_left {
 		width:100%;
+		padding-top:110px;
 		span.sec_four_intro {
-			font-size:44px;
-			line-height: 60px;
-			max-width: 920px;
+			font-size:38px;
+			line-height: 56px;
+			max-width: 980px;
 			margin: 26px 0 0;
 		}
 	}
@@ -144,17 +144,25 @@
 	}
 	
 	.sec_four_content {
-		width: 51%;
+		width: 50%;
 		float:left;
-		padding: 67px 0 0;
+		padding: 35px 0 0;
+
+		&.content {
+
+			span.sec_four_title {
+				padding-bottom: 0;
+				display:block;
+			}
+		}
 	}
 	
 		
 	
 	.smaller_screen_layout_change {
-		width:49%;
+		width:50%;
 		max-width: 500px;
-		padding: 95px 0px 0 50px;
+		padding: 95px 75px 0;
 	}
 	
 	
@@ -166,10 +174,6 @@
 
 @media screen and (max-width: 1250px) {
 	
-	
-	.sec_four_inner {
-    padding: 0 61px 190px;
-	}
 	
 	
 } /* Media Query */
