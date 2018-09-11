@@ -3,16 +3,16 @@
 	position: relative;
 	padding:0 80px 225px;
 	overflow: hidden;
-	&:after {
-		content:"";
-		width:1430px;
-		height: 711px;
-		display: block;
-		background: #f5f5f5;
-		position: absolute;
-		top:0;
-		right:0;
-	}
+	// &:after {
+	// 	content:"";
+	// 	width:1430px;
+	// 	height: 711px;
+	// 	display: block;
+	// 	background: #f5f5f5;
+	// 	position: absolute;
+	// 	top:0;
+	// 	right:0;
+	// }
 }
 
 
@@ -34,12 +34,13 @@
 		height:auto;
 		float:right;
 	}
+
 	span.sec_eight_caption {
 		font-size:14px;
 		text-transform: uppercase;
 		display: block;
 		float:right;
-		max-width: 355px;
+		// max-width: 355px;
 		line-height: 29px;
 		letter-spacing: 0.16em;
 		font-family: $montserrat;
@@ -83,6 +84,7 @@ span.sec_eight_svg {
 	position: absolute;
 	top: 764px;
 	left: -44px;
+	z-index: -1;
 	svg {
 		width:455px;
 		height: 390px;
@@ -135,14 +137,20 @@ span.sec_eight_svg {
 	
 	
 	.sec_eight_left {
-    margin: 125px 0 0;
-    &:after {
-	   	height: 803px;
-    }
-    span.sec_eight_caption {
-	    margin: 57px 0 0;
-    }
-  }
+		margin: 125px 0 0;
+		padding: 0 75px;
+		&:after {
+			height: 803px;
+		}
+		span.sec_eight_caption {
+			font-size:12px;
+			margin: 42px 0 0;
+			
+			&:before{
+				margin: 0 0 25px;
+			}
+		}
+	}
   
   
   .sec_eight_right {
@@ -152,14 +160,18 @@ span.sec_eight_svg {
 	  span.large_header {
 		  font-size:65px;
 		  line-height: 78px;
-		  margin-bottom: 39px;
+		  margin-bottom: 20px;
+	  }
+
+	  h2{
+		  padding-bottom: 20px;
 	  }
   }
   
   
   
   span.sec_eight_svg {
-	  top: 670px;
+	  top: 507px;
 	  left:-70px;
   }
 
@@ -226,6 +238,7 @@ span.sec_eight_svg {
 	
 	
 	.sec_eight_left {
+		padding:0;
 		order:2;
 		margin-top:0;
 		

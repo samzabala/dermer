@@ -38,7 +38,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_animations.css",
+		"oAP": "\/ # by Compass.app \/_animations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/ # by Compass.app \/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -51,7 +64,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_global.css",
+		"oAP": "\/ # by Compass.app \/_global.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/ # by Compass.app \/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -64,7 +90,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_nav.css",
+		"oAP": "\/ # by Compass.app \/_nav.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -77,7 +103,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_not_found.css",
+		"oAP": "\/ # by Compass.app \/_not_found.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -90,7 +116,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_page-blog.css",
+		"oAP": "\/ # by Compass.app \/_page-blog.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -103,7 +129,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_page-contact.css",
+		"oAP": "\/ # by Compass.app \/_page-contact.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -116,7 +142,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_page-practice-areas.css",
+		"oAP": "\/ # by Compass.app \/_page-practice-areas.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page_about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/ # by Compass.app \/_page_about.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page_attbio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/ # by Compass.app \/_page_attbio.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -129,7 +181,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_page_caseresults.css",
+		"oAP": "\/ # by Compass.app \/_page_caseresults.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -142,7 +194,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_page_default.css",
+		"oAP": "\/ # by Compass.app \/_page_default.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -155,7 +207,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_page_team.css",
+		"oAP": "\/ # by Compass.app \/_page_team.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -168,7 +220,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_page_testimonial.css",
+		"oAP": "\/ # by Compass.app \/_page_testimonial.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -181,7 +233,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_reset.css",
+		"oAP": "\/ # by Compass.app \/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -194,7 +246,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_slick.css",
+		"oAP": "\/ # by Compass.app \/_slick.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -207,33 +259,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/scss\/footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/scss\/footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/scss\/header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/scss\/header.css",
+		"oAP": "\/ # by Compass.app \/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -246,7 +272,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/_section_eight.css",
+		"oAP": "\/ # by Compass.app \/_section_eight.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -259,7 +285,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/_section_five.css",
+		"oAP": "\/ # by Compass.app \/_section_five.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -272,7 +298,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/_section_four.css",
+		"oAP": "\/ # by Compass.app \/_section_four.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -285,7 +311,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/_section_one.css",
+		"oAP": "\/ # by Compass.app \/_section_one.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -298,7 +324,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/_section_seven.css",
+		"oAP": "\/ # by Compass.app \/_section_seven.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -311,7 +337,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/_section_six.css",
+		"oAP": "\/ # by Compass.app \/_section_six.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -324,7 +350,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/_section_three.css",
+		"oAP": "\/ # by Compass.app \/_section_three.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -337,26 +363,13 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/homepage\/_section_two.css",
+		"oAP": "\/ # by Compass.app \/_section_two.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/scss\/page_attbio.scss": {
+	"\/css\/style.scss": {
 		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/scss\/page_attbio.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/scss\/style.scss": {
-		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -365,7 +378,7 @@
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/footer.php": {
@@ -1218,7 +1231,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/js\/slick\/slick\/slick-theme.css",
+		"oAP": "\/ # by Compass.app \/slick-theme.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1278,7 +1291,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/js\/slick\/slick\/slick.css",
+		"oAP": "\/ # by Compass.app \/slick.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1980,6 +1993,39 @@
 		"oA": 0,
 		"oAP": "\/style.css.map",
 		"oF": 0
+		},
+	"\/stylesheets\/_main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/ # by Compass.app \/_main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/templates\/project\/manifest.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/templates\/project\/manifest.rb",
+		"oF": 0
+		},
+	"\/templates\/project\/screen.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/ # by Compass.app \/screen.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [
