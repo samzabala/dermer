@@ -1994,19 +1994,6 @@
 		"oAP": "\/style.css.map",
 		"oF": 0
 		},
-	"\/stylesheets\/_main.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/ # by Compass.app \/_main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/templates\/project\/manifest.rb": {
 		"cB": 0,
 		"ft": 8192,

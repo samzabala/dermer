@@ -84,6 +84,7 @@
 		font-weight: 800;
 		font-size:14px;
 		line-height: 28px;
+		max-width:260px;
 		text-transform: uppercase;
 		color:#000;
 		letter-spacing: 0.17em;
@@ -163,7 +164,13 @@
 		width:50%;
 		max-width: 500px;
 		padding: 95px 75px 0;
+
+
+		span.sec_four_caption {
+			max-width:100%;
+		}
 	}
+	
 	
 	
 	
