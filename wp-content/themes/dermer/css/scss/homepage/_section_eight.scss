@@ -145,6 +145,7 @@ span.sec_eight_svg {
 		span.sec_eight_caption {
 			font-size:12px;
 			margin: 42px 0 0;
+			max-width:none;
 			
 			&:before{
 				margin: 0 0 25px;
@@ -156,7 +157,7 @@ span.sec_eight_svg {
   .sec_eight_right {
 	  margin: 107px 0 0;
 	  padding: 0 0 0 7%;
-	  flex-basis: 747px;
+	  flex-basis: 666px;
 	  span.large_header {
 		  font-size:65px;
 		  line-height: 78px;
@@ -246,13 +247,13 @@ span.sec_eight_svg {
 			display: none;
 		}
 		span.sec_eight_caption {
-			margin: 45px 0 0;
+			margin: 0;
 			max-width:100%;
 			br {
 				display: none;
 			}
 			&:before {
-				margin: 0 0 20px;
+				margin: 0 0 30px;
 			}
 		}
 	}

@@ -62,7 +62,7 @@ span.section_one_large_header {
 	line-height: 120px;
 	font-family:$playfair;
 	font-weight:700;
-	max-width: 880px;
+	max-width: 850px;
 	br {
 		display: none;
 	}
@@ -127,12 +127,11 @@ a.button {
 	#section_one {
 		background-position: top center;
 		margin: 80px 0 0;
-		height:730px;
+		height:838px;
 	}
 	
-	
 	.section_one_inner {
-		padding: 144px 125px 0;
+		padding: 364px 125px 0;
 	}
 	
 	
@@ -140,6 +139,7 @@ a.button {
 		font-size:90px;
 		line-height: 108px;
 		margin: 17px 0 0;
+		max-width: 750px;
 	}
 	
 	a.button {
