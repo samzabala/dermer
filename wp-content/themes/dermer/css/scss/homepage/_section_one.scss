@@ -250,20 +250,13 @@ a.button {
 	}
 	
 		
-html.webp {
-	#section_one {
-		background: url(#{$themePath}images/hero-768.webp) top center no-repeat;
-		background-size:cover;
+	html.webp {
+		#section_one {
+			background: url(#{$themePath}images/hero-768.webp) top center no-repeat!important;
+			background-size:cover!important;
+		}
 	}
-}
-
-html.no-webp {
-	#section_one {
-		background: url(#{$themePath}images/hero-768.jpg) top center no-repeat;
-		background-size:cover;
-	}
-}
-	
+		
 	
 } /* Media Query */
 
